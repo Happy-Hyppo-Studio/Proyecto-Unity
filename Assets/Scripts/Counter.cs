@@ -1,9 +1,6 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
-
 [System.Serializable]
 public class Counter  //actualizador de tiempo sin bucle
 {
@@ -23,11 +20,11 @@ public class Counter  //actualizador de tiempo sin bucle
 public class Clock //repetidor de acciones
 {
     public float Frequency;
-    public IEnumerator Cycle(Action a)
+    public IEnumerator Cycle(Action action)
     {
         while(true)
         {
-            a();
+            action();
             yield return new WaitForSeconds(Frequency);
         }             
     }
