@@ -11,6 +11,7 @@ public class UnitBehaviour : MonoBehaviour
     public element type;
     public Clock hitClock;
     private int health;
+    public bool isAlly;
     private int currentHealth
     {
         get { return health; }
@@ -43,7 +44,7 @@ public class UnitBehaviour : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         UnitBehaviour unit = collision.gameObject.GetComponent<UnitBehaviour>();
-        if (unit != null)
+        if (unit != null && unit.isAlly != isAlly)
         {
             StartCoroutine(hitClock.Cycle(() => DamageFormula(unit)));
         }
@@ -51,7 +52,7 @@ public class UnitBehaviour : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         UnitBehaviour unit = collision.gameObject.GetComponent<UnitBehaviour>();
-        if (unit != null)
+        if (unit != null && unit.isAlly != isAlly)
         {
             StopCoroutine(hitClock.Cycle(() => DamageFormula(unit)));
         }
