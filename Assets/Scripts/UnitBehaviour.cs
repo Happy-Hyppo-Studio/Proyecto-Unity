@@ -29,15 +29,14 @@ public class UnitBehaviour : MonoBehaviour
     public void DamageFormula(UnitBehaviour enemyStats)
     {
         if (enemyStats.type == (type + 1 == (element)4 ? element.water : type + 1)) //elemento al que es debil
-        {
-            
+        {            
             currentHealth -= enemyStats.damage * 2;
         }
         else if (enemyStats.type == (type - 1 == (element)(-1) ? element.fire : type - 1))  //elemento al que es fuerte
         { 
             currentHealth += (int) (enemyStats.damage * 0.5f);
         }
-        else //elemento 
+        else //elemento igual o "diagonal"
         {
             currentHealth -= enemyStats.damage;
         }  
