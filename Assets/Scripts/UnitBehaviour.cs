@@ -3,14 +3,14 @@ public class UnitBehaviour : MonoBehaviour
 {
     public enum element
     {
-        earth,
         water,
+        earth,
         air,
         fire
     }
     public element type;
     public Clock hitClock;
-    private int health;
+    public int health;
     public bool isAlly;
     private int currentHealth
     {
@@ -28,14 +28,19 @@ public class UnitBehaviour : MonoBehaviour
     public int damage;        
     public void DamageFormula(UnitBehaviour enemyStats)
     {
-        if (enemyStats.type == type)
+        if (enemyStats.type == (type + 1 == (element)4 ? element.water : type + 1)) //elemento al que es debil
+        {
+            
+            currentHealth -= enemyStats.damage * 2;
+        }
+        else if (enemyStats.type == (type - 1 == (element)(-1) ? element.fire : type - 1))  //elemento al que es fuerte
+        { 
+            currentHealth += (int) (enemyStats.damage * 0.5f);
+        }
+        else //elemento 
         {
             currentHealth -= enemyStats.damage;
-        }
-        else
-        {
-            currentHealth -= (int) (enemyStats.damage * 0.5f);
-        }       
+        }  
     }
     public void Awake()
     {
