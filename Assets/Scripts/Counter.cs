@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 [System.Serializable]
 public class Counter  //actualizador de tiempo sin bucle
@@ -28,4 +29,6 @@ public class Clock //repetidor de acciones
             yield return new WaitForSeconds(Frequency);
         }             
     }
+
 }
+
