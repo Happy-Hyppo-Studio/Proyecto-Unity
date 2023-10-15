@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Colector : MonoBehaviour
+public class Colector : RecyclableObject
 {
     public int maxHp;
     public int hp;
@@ -11,18 +11,26 @@ public class Colector : MonoBehaviour
     public int levelPrice;
     public string type;
 
-    private ColectorControler _colector;
+    public ColectorControler _controler;
 
-    internal void Configure(ColectorControler colector, string material)
+    internal override void Init()
     {
-        _colector = colector;
+        hp = 500;
+        maxHp = 500;
+        level = 1;
+        prodPerSec = 10;
+        levelPrice = 1000;
+    }
 
-        var hp = 500;
-        var maxHp = 500;
-        var level = 1;
-        var type = material;
-        var prodPerSec = 10;
-        var levelPrice = 1000;
+    void Start()
+    {
+        Debug.Log("hola mundo");
+    }
+
+    public Colector (string material, ColectorControler controler)
+    {
+        type = material;
+        _controler = controler;
     }
 
     public void LevelUp()
@@ -53,8 +61,8 @@ public class Colector : MonoBehaviour
         }
     }
 
-    /*public void Demolish(Colector _colector)
+    internal override void Release()
     {
-        Destroy(_colector);
-    }*/
+        _controler.RecountRate();
+    }
 }
