@@ -15,9 +15,11 @@ public class CardManagerBehaviour : MonoBehaviour
     {
         for (int i = 0; i < orderedButtons.Length; i++)
         {
+            card sel = orderedCards[i];
             orderedButtons[i].onClick.AddListener(() =>
             {
-                selection = orderedCards[i];
+
+                selection = sel;
                 //
                 //codigo de visibiliidad de seleccion
                 //

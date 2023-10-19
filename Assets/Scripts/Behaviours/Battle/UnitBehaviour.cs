@@ -1,14 +1,6 @@
 ﻿using UnityEngine;
 public class UnitBehaviour : MonoBehaviour
-{
-    public enum element //todos los elementos, ordenados 
-    {
-        water, //el agua es absorbida por la tierra 
-        earth, //la tierra es arrastrada por el aire
-        air,   //el aire sirve de alimento al fuego
-        fire,   //el fuego es apagado por el agua
-        aether  //elemento nulo
-    }
+{    
     public element type;//el elemento de la unidad
     private int health //getter y setter modificados de la vida actual
     {
@@ -23,10 +15,9 @@ public class UnitBehaviour : MonoBehaviour
             }
         }
     }
-    public int currentHealth; //vida actual
+    private int currentHealth; //vida actual
     public int maxHealth; // vida maxima
     public bool isAlly; //informacion de bando de la unidad
-    public Clock hitClock;
     public void DamageFormula(int eDamage, element eElement)
     {
         //REHACER 
@@ -54,7 +45,7 @@ public class UnitBehaviour : MonoBehaviour
         UnitBehaviour unit = collision.gameObject.GetComponent<UnitBehaviour>();
         if (fighter != null && unit.isAlly != isAlly)//si choca un enemigo
         {
-            StartCoroutine(unit.hitClock.Cycle(() => DamageFormula(fighter.damage,unit.type)));//empieza corrutina de reloj que aplica el da�o como una expresion lambda
+            StartCoroutine(fighter.hitClock.Cycle(() => DamageFormula(fighter.damage,unit.type)));//empieza corrutina de reloj que aplica el da�o como una expresion lambda
         }
     }
     private void OnCollisionExit2D(Collision2D collision)// si TERMINA de colisionar
@@ -63,7 +54,7 @@ public class UnitBehaviour : MonoBehaviour
         UnitBehaviour unit = collision.gameObject.GetComponent<UnitBehaviour>();
         if (fighter != null && unit.isAlly != isAlly)
         {
-            StopCoroutine(unit.hitClock.Cycle(() => DamageFormula(fighter.damage, unit.type)));//termina la corrutina de reloj empezada
+            StopCoroutine(fighter.hitClock.Cycle(() => DamageFormula(fighter.damage, unit.type)));//termina la corrutina de reloj empezada
         }
     }
 }
