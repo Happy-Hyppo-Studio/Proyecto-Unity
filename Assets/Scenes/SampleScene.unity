@@ -403,6 +403,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: FactoryWater
       objectReference: {fileID: 0}
+    - target: {fileID: 4675265237746548157, guid: 0afab10ab2c508d4eb151616b730198e, type: 3}
+      propertyPath: m_Size.x
+      value: 2.4148512
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675265237746548157, guid: 0afab10ab2c508d4eb151616b730198e, type: 3}
+      propertyPath: m_Size.y
+      value: 3.8293123
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675265237746548157, guid: 0afab10ab2c508d4eb151616b730198e, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.154078
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675265237746548157, guid: 0afab10ab2c508d4eb151616b730198e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.061202526
+      objectReference: {fileID: 0}
     - target: {fileID: 9059751889378858892, guid: 0afab10ab2c508d4eb151616b730198e, type: 3}
       propertyPath: m_RootOrder
       value: 1
