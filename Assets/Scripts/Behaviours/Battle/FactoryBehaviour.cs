@@ -1,15 +1,15 @@
 using UnityEngine;
-public class GeneratorBehaviour : MonoBehaviour
+public class FactoryBehaviour : MonoBehaviour
 {
     public Clock genClock;
-    public elements element;
     public void Start()
     {
         ResourcesManagerBehaviour resources = GameObject.FindGameObjectWithTag("Resources").GetComponent<ResourcesManagerBehaviour>();
+        element unitElement = GetComponent<UnitBehaviour>().type;
         StartCoroutine(genClock.Cycle(() =>
         {
             //codigo de generador
-            resources.ResourceChange(1, element);
+            resources.ResourceChange(1, unitElement);
         }));
     }
 }

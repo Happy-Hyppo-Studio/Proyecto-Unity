@@ -9,39 +9,26 @@ public class ResourcesManagerBehaviour : MonoBehaviour
     public int water, wind, earth, fire;
 
     public EventHandler<int> waterHandler,windHandler,earthHandler,fireHandler;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-    public void ResourceChange(int resource, elements element)
+    public void ResourceChange(int resource, element element)
     {
         switch (element)
         {
-            case elements.water:
+            case element.water:
                 water += resource;
                 waterHandler?.Invoke(this, water);
                 break;
 
-            case elements.wind:
+            case element.air:
                 wind += resource;
                 windHandler?.Invoke(this, wind);
                 break;
 
-            case elements.earth:
+            case element.earth:
                 earth += resource;
                 earthHandler?.Invoke(this, earth);
                 break;
 
-            case elements.fire:
+            case element.fire:
                 fire += resource;
                 fireHandler?.Invoke(this, fire);
                 break;
