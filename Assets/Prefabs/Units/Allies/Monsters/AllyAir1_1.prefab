@@ -173,6 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
+  currentHealth: 0
   maxHealth: 10
   isAlly: 1
 --- !u!114 &5605975165405171860
@@ -190,4 +191,4 @@ MonoBehaviour:
   damage: 1
   speed: {x: 1, y: 0}
   hitClock:
-    Frequency: 1
+    Frequency: 0.5
