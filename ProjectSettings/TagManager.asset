@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Resources
+  - Cards
   layers:
   - Default
   - TransparentFX

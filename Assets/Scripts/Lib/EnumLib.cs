@@ -12,6 +12,9 @@ public enum element //todos los elementos, ordenados
 }
 public enum card //todos los elementos, ordenados 
 {
-    card1,
-    card2
+    tanngs,
+    carcinos,
+    fenix,
+    kappa,
+    nothing
 }
