@@ -10,3 +10,8 @@ public enum element //todos los elementos, ordenados
     fire,   //el fuego es apagado por el agua
     aether  //elemento nulo
 }
+public enum card //todos los elementos, ordenados 
+{
+    card1,
+    card2
+}

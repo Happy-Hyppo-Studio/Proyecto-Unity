@@ -3,11 +3,7 @@ using UnityEngine.UI;
 
 public class CardManagerBehaviour : MonoBehaviour
 {
-    public enum card //todos los elementos, ordenados 
-    {
-        card2,
-        card1
-    }
+    
     public card selection = card.card1;
     public card[] orderedCards;
     public Button[] orderedButtons;
@@ -18,7 +14,6 @@ public class CardManagerBehaviour : MonoBehaviour
             card sel = orderedCards[i];
             orderedButtons[i].onClick.AddListener(() =>
             {
-
                 selection = sel;
                 //
                 //codigo de visibiliidad de seleccion
