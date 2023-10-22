@@ -1,13 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoseConditionBehaviour : MonoBehaviour
 {
-    public GameObject defeatMessage;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(collision.gameObject);
-        defeatMessage.SetActive(true);
+        SceneManager.LoadScene(1);
     }
 }
