@@ -1,8 +1,7 @@
 using UnityEngine;
 public class FighterBehaviour : MonoBehaviour
 {
-    const RigidbodyConstraints2D walkState = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionY;
-    const RigidbodyConstraints2D blockState = RigidbodyConstraints2D.FreezeAll;
+
     float ypos;
     public int damage;
     public Vector2 speed;
@@ -22,14 +21,14 @@ public class FighterBehaviour : MonoBehaviour
         
         if (enemyUnit != null && unit.isAlly != enemyUnit.isAlly)
         {
-            rb.constraints = blockState;            
+            rb.constraints = Constants.blockState;            
         }       
     }
     private void OnCollisionExit2D(Collision2D collision)// si TERMINA de colisionar
     {
         UnitBehaviour enemyUnit = collision.gameObject.GetComponent<UnitBehaviour>();
         rb.velocity = unit.isAlly ? speed : -speed;    //continua
-        rb.constraints = walkState;
+        rb.constraints = Constants.walkState;
         if (enemyUnit != null && unit.isAlly != enemyUnit.isAlly)
         {            
             transform.position = new Vector3(transform.position.x, ypos, transform.position.z);
