@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Resources
   - Cards
+  - PauseMenu
+  - OptionsMenu
   layers:
   - Default
   - TransparentFX
