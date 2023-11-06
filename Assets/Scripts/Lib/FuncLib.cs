@@ -29,6 +29,9 @@ public class Clock //repetidor de acciones
             yield return new WaitForSeconds(Frequency);
         }             
     }
-
 }
-
+public struct Constants
+{
+    public const RigidbodyConstraints2D walkState = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionY;
+    public const RigidbodyConstraints2D blockState = RigidbodyConstraints2D.FreezeAll;
+}
