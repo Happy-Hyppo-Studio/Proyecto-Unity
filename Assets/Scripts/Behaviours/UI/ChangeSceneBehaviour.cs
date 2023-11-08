@@ -4,17 +4,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class LevelSelectButton : MonoBehaviour
+public class ChangeSceneBehaviour : MonoBehaviour
 {
-    public int level;
-    private int level0=0;
+    public int scene;
 
     // Start is called before the first frame update
     void Start()
     {
         GetComponent<Button>().onClick.AddListener(() =>
         {
-            SceneManager.LoadScene(level+level0);
+            SceneManager.LoadScene(scene);
         });
     }
 }

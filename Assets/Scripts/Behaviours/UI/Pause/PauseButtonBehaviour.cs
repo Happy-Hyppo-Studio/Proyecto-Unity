@@ -11,14 +11,8 @@ public class PauseButtonBehaviour : MonoBehaviour
     {
         this.GetComponent<Button>().onClick.AddListener(() => {
             pauseMenu.SetActive(true);
-            this.gameObject.SetActive(false);
             Time.timeScale = 0.0f;
         });
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

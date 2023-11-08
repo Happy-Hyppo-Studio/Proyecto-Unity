@@ -7,17 +7,16 @@ using UnityEngine.UI;
 public class OptionsMenuBehaviour : MonoBehaviour
 {
     public Button backButton, audioButton, controlsButton;
-    public GameObject audioOptions, controlsOptions, pauseMenu;
+    public GameObject audioOptions, controlsOptions;
 
     void Start()
     {
         backButton.onClick.AddListener(() => {
             GameObject.FindWithTag("OptionsMenu").SetActive(false);
-            pauseMenu.SetActive(true);
         });
         audioButton.onClick.AddListener(() => {
-            controlsOptions.SetActive(false);
             audioOptions.SetActive(true);
+            controlsOptions.SetActive(false);
         });
         controlsButton.onClick.AddListener(() => {
             controlsOptions.SetActive(true);

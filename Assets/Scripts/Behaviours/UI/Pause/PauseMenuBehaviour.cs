@@ -13,23 +13,16 @@ public class PauseMenuBehaviour : MonoBehaviour
     {
         continueButton.onClick.AddListener(() => {
             Time.timeScale = 1.0f;
-            GameObject.FindWithTag("PauseMenu").SetActive(false);
             pauseButton.SetActive(true);
+            GameObject.FindWithTag("PauseMenu").SetActive(false);
         });
         optionsButton.onClick.AddListener(() => {
             optionsMenu.SetActive(true);
-            GameObject.FindWithTag("PauseMenu").SetActive(false);
         });
         forfeitButton.onClick.AddListener(() => {
             Time.timeScale = 1.0f;
             SceneManager.LoadScene(3);
         });
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
