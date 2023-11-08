@@ -620,7 +620,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5986522085631587717}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -122.46875, y: -191.82016, z: -1.7612591}
+  m_LocalPosition: {x: 0, y: 0, z: -1.7612591}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -639,10 +639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e27b3160c8340234f85e8ca1ebbb2b9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  water: 0
-  wind: 0
-  earth: 0
-  fire: 0
+  resources: 00000000000000000000000000000000
 --- !u!1 &6211166876757627233
 GameObject:
   m_ObjectHideFlags: 0

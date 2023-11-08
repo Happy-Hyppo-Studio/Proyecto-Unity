@@ -16,6 +16,10 @@ public class ResourcesUIBehavior : MonoBehaviour
     void Start()
     {
         GameObject recursos = GameObject.FindWithTag("Resources");
+        waterCountText.text = recursos.GetComponent<ResourcesManagerBehaviour>().resources[0].ToString();
+        airCountText.text = recursos.GetComponent<ResourcesManagerBehaviour>().resources[0].ToString();
+        earthCountText.text = recursos.GetComponent<ResourcesManagerBehaviour>().resources[0].ToString();
+        fireCountText.text = recursos.GetComponent<ResourcesManagerBehaviour>().resources[0].ToString();
         recursos.GetComponent<ResourcesManagerBehaviour>().fireHandler += Fire;
         recursos.GetComponent<ResourcesManagerBehaviour>().waterHandler += Water;
         recursos.GetComponent<ResourcesManagerBehaviour>().windHandler += Wind;
