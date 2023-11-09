@@ -332,12 +332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffb8073f68e6dda449b972414333789b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  orderedCards: 
-  orderedPrefabs:
-  - {fileID: 3709221368155115068, guid: 85a541e513c94e744acfe3131e4a979f, type: 3}
-  - {fileID: 3709221368155115068, guid: d082041c831be6546b60204493cfb233, type: 3}
-  - {fileID: 3709221368155115068, guid: c9e83f3a076680d4d99fd9b05ad18a61, type: 3}
-  - {fileID: 3709221368155115068, guid: bd7d0f5de8d6d954c93212f944bc33a4, type: 3}
 --- !u!58 &238730550
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1317,12 +1311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffb8073f68e6dda449b972414333789b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  orderedCards: 
-  orderedPrefabs:
-  - {fileID: 3709221368155115068, guid: 85a541e513c94e744acfe3131e4a979f, type: 3}
-  - {fileID: 3709221368155115068, guid: d082041c831be6546b60204493cfb233, type: 3}
-  - {fileID: 3709221368155115068, guid: c9e83f3a076680d4d99fd9b05ad18a61, type: 3}
-  - {fileID: 3709221368155115068, guid: bd7d0f5de8d6d954c93212f944bc33a4, type: 3}
 --- !u!212 &1198142882
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1770,12 +1758,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffb8073f68e6dda449b972414333789b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  orderedCards: 
-  orderedPrefabs:
-  - {fileID: 3709221368155115068, guid: 85a541e513c94e744acfe3131e4a979f, type: 3}
-  - {fileID: 3709221368155115068, guid: d082041c831be6546b60204493cfb233, type: 3}
-  - {fileID: 3709221368155115068, guid: c9e83f3a076680d4d99fd9b05ad18a61, type: 3}
-  - {fileID: 3709221368155115068, guid: bd7d0f5de8d6d954c93212f944bc33a4, type: 3}
 --- !u!212 &2068277670
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2173,7 +2155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1612090554021955710, guid: 820029990592c0f4cbe615ae4ebdc37c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -492
+      value: -424
       objectReference: {fileID: 0}
     - target: {fileID: 1612090554021955710, guid: 820029990592c0f4cbe615ae4ebdc37c, type: 3}
       propertyPath: m_AnchoredPosition.y
