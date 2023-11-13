@@ -19,13 +19,13 @@ public class ResourcesManagerBehaviour : MonoBehaviour
                 break;
         
             case element.air:
-                resources[1] += resource;
-                windHandler?.Invoke(this, resources[1]);
+                resources[2] += resource;
+                windHandler?.Invoke(this, resources[2]);
                 break;
         
             case element.earth:
-                resources[2] += resource;
-                earthHandler?.Invoke(this, resources[2]);
+                resources[1] += resource;
+                earthHandler?.Invoke(this, resources[1]);
                 break;
         
             case element.fire:

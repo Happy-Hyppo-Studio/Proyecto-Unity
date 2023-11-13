@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class LoseConditionBehaviour : MonoBehaviour
 {
+    public GameObject defeatMenu;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(1);
+        Time.timeScale = 0.0f;
+        defeatMenu.SetActive(true);
     }
 }

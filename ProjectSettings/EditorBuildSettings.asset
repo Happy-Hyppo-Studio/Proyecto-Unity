@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/DefinitiveScenes/LevelSelectScene.unity
     guid: ff6163e6d49531a41848961d037988f9
   - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/Level1Scene.unity
+    guid: a2c523da81ab2914a81cfb310f0eefbe
+  - enabled: 1
     path: Assets/Scenes/TestingScenes/TestingColectores.unity
     guid: 62d6dde6d3add78468cfa5f12914715b
   - enabled: 1

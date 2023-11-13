@@ -5,15 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class WinConditionBehaviour : MonoBehaviour
 {
-    public GameObject obj1,obj2,obj3;
+    public GameObject[] obj;
+    public GameObject winUI;
     public Clock genClock;
+    public bool win=false;
     public void Start()
     {
         StartCoroutine(genClock.Cycle(() =>
         {
-            if(obj1 == null && obj2 == null && obj3 == null)
+            win = true;
+            for(int i=0;i<obj.Length; i++)
             {
-                SceneManager.LoadScene(2);
+                if (obj[i] != null)
+                    win = false;
+            }
+            if (win)
+            {
+                Time.timeScale = 0.0f;
+                winUI.SetActive(true);
             }
         }));
     }

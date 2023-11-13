@@ -15,12 +15,12 @@ public class StartButtonBehaviour : MonoBehaviour
     void Start()
     {
         GetComponent<Button>().onClick.AddListener(() => {
-            string name = (nameInput.text == "") ? "Anonimo" : nameInput.text;
-            string path = "Assets/profile.txt";
-            StreamWriter sw = new StreamWriter(path);
-            sw.WriteLine(name + " " + characterInput.GetComponent<CharacterSelectBehaviour>().character + " " + ageInput.GetComponent<AgeUIBehaviour>().ageInt);
-            sw.Close();
-            SceneManager.LoadScene(0);
+            //string name = (nameInput.text == "") ? "Anonimo" : nameInput.text;
+            //string path = "Assets/profile.txt";
+            //StreamWriter sw = new StreamWriter(path);
+            //sw.WriteLine(name + " " + characterInput.GetComponent<CharacterSelectBehaviour>().character + " " + ageInput.GetComponent<AgeUIBehaviour>().ageInt);
+            //sw.Close();
+            SceneManager.LoadScene(2);
 
         });
     }
