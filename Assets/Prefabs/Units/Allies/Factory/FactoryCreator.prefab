@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   factory: {fileID: 3709221368155115068, guid: 4a2175e1ecceb694b8e040cb783d03c7, type: 3}
-  father: {fileID: 4081216038145392379}
+  father: {fileID: 8705271240693200363}
 --- !u!50 &3934996423256736968
 Rigidbody2D:
   serializedVersion: 4
@@ -354,7 +354,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1306844988387594140}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.8, z: 0}
+  m_LocalPosition: {x: 0, y: -2.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -588,7 +588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   factory: {fileID: 3709221368155115068, guid: 7847a51ad9f414847a07698022aca875, type: 3}
-  father: {fileID: 4081216038145392379}
+  father: {fileID: 8705271240693200363}
 --- !u!50 &7156159474814491914
 Rigidbody2D:
   serializedVersion: 4
@@ -751,7 +751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   factory: {fileID: 3709221368155115068, guid: 0afab10ab2c508d4eb151616b730198e, type: 3}
-  father: {fileID: 4081216038145392379}
+  father: {fileID: 8705271240693200363}
 --- !u!58 &7794275629192961683
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -950,7 +950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   factory: {fileID: 3709221368155115068, guid: b5a4ef3582523c64da11bf94b76c268c, type: 3}
-  father: {fileID: 4081216038145392379}
+  father: {fileID: 8705271240693200363}
 --- !u!50 &2376060447434609759
 Rigidbody2D:
   serializedVersion: 4
