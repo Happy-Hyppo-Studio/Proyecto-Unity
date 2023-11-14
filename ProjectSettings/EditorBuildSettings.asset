@@ -27,6 +27,12 @@ EditorBuildSettings:
     path: Assets/Scenes/DefinitiveScenes/Level2Scene.unity
     guid: 28f85baa3231a464793a593a94c6aa20
   - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/Level3Scene.unity
+    guid: 5faeebce350bef842be84287c1dd16c5
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/Level4Scene.unity
+    guid: 005d9007a63157d44836e0e362520e42
+  - enabled: 1
     path: Assets/Scenes/TestingScenes/TestingColectores.unity
     guid: 62d6dde6d3add78468cfa5f12914715b
   - enabled: 1
