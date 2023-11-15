@@ -33,12 +33,15 @@ EditorBuildSettings:
     path: Assets/Scenes/DefinitiveScenes/Level4Scene.unity
     guid: 005d9007a63157d44836e0e362520e42
   - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/CreditScene.unity
+    guid: 07151761d1041f34a955b68512324939
+  - enabled: 1
     path: Assets/Scenes/TestingScenes/TestingColectores.unity
     guid: 62d6dde6d3add78468cfa5f12914715b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestingScenes/DefeatScene.unity
     guid: 51810dbc1eb1f3147aac1494e4ae4ab1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestingScenes/VictoryScene.unity
     guid: 024f8bbe51b31f74bae2e1420fac2190
   m_configObjects: {}

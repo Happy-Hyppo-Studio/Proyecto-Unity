@@ -9,6 +9,7 @@ public class WinConditionBehaviour : MonoBehaviour
     public GameObject winUI;
     public Clock genClock;
     public bool win=false;
+    public AudioClip sound;
     public void Start()
     {
         StartCoroutine(genClock.Cycle(() =>
@@ -21,6 +22,7 @@ public class WinConditionBehaviour : MonoBehaviour
             }
             if (win)
             {
+                EffectsControler.Instance.PlaySound(sound);
                 Time.timeScale = 0.0f;
                 winUI.SetActive(true);
             }

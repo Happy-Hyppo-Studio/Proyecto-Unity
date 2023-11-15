@@ -33,8 +33,8 @@ public class UnitBehaviour : MonoBehaviour
         {
             hitCoroutine = StartCoroutine(fighter.hitClock.Cycle(() => 
             {
-                EffectsControler.Instance.PlaySound(attackSound);
 
+                EffectsControler.Instance.PlaySound(attackSound);
                 //CODIGO DE DAÑO, PROVISIONAL/////
                 //con operadores elvis para los extremos del enum elemental
                 if (unit.type == (type + 1 == (element)4 ? element.water : type + 1)) //elemento al que es debil
