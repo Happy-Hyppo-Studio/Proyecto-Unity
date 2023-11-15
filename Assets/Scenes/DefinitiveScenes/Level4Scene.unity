@@ -342,7 +342,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86981775}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6, y: -1.08, z: 0}
+  m_LocalPosition: {x: 0.6, y: -1.08, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -362,6 +362,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1380372620}
     m_Modifications:
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: enemy.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: enemy.Array.data[0]
+      value: 
+      objectReference: {fileID: 3709221368155115068, guid: 33ef00071dd558341a52b7d3372c5922, type: 3}
     - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
       propertyPath: timeOffsets.Array.size
       value: 6
@@ -1116,7 +1124,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2385947048119873796, guid: b9386ab48fdea8045925e838c9581c23, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2385947048119873796, guid: b9386ab48fdea8045925e838c9581c23, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1606,7 +1614,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380372619}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.6, y: -2.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1617,7 +1625,7 @@ Transform:
   - {fileID: 485390489}
   - {fileID: 47863660}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1611925811
 PrefabInstance:
@@ -1627,6 +1635,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1615910406}
     m_Modifications:
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: enemy.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: enemy.Array.data[0]
+      value: 
+      objectReference: {fileID: 3709221368155115068, guid: 33ef00071dd558341a52b7d3372c5922, type: 3}
     - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
       propertyPath: timeOffsets.Array.size
       value: 7
@@ -1736,7 +1752,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1615910405}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6, y: 0.61, z: 0}
+  m_LocalPosition: {x: 0.6, y: 0.61, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2372,6 +2388,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 86981776}
     m_Modifications:
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: enemy.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: enemy.Array.data[0]
+      value: 
+      objectReference: {fileID: 3709221368155115068, guid: 33ef00071dd558341a52b7d3372c5922, type: 3}
     - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
       propertyPath: timeOffsets.Array.size
       value: 8
