@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class MusicControler : MonoBehaviour
 {
-    public static MusicControler Instance2;
+    public static MusicControler Instance;
 
     private AudioSource audioSource;
+    [SerializeField] private AudioClip levelMusic;
+
+    private float currentTime;
 
     private void Awake()
     {
-        if (Instance2 == null)
+        if (Instance == null)
         {
-            Instance2 = this;
+            Instance = this;
             DontDestroyOnLoad(gameObject);
         }
         else
@@ -21,10 +24,33 @@ public class MusicControler : MonoBehaviour
         }
 
         audioSource = GetComponent<AudioSource>();
+
+        audioSource.clip = levelMusic;
+        //audioSource.Play(0);
     }
 
     public void PlaySound(AudioClip sound)
     {
+        audioSource.Stop();
+
         audioSource.PlayOneShot(sound);
+    }
+
+    public void StopSound()
+    {
+        audioSource.Stop();
+        currentTime = 0;
+    }
+
+    public void PauseSound()
+    {
+        audioSource.Play();
+        audioSource.time = currentTime;
+    }
+
+    public void ResumeSound()
+    {
+        currentTime = audioSource.time;
+        audioSource.Stop();
     }
 }

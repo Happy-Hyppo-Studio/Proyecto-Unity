@@ -7,6 +7,7 @@ public class EffectsControler : MonoBehaviour
     public static EffectsControler Instance;
 
     private AudioSource audioSource;
+    private float currentTime;
 
     private void Awake()
     {

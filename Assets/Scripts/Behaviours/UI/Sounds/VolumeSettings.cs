@@ -10,6 +10,7 @@ public class VolumeSettings : MonoBehaviour
 
     [SerializeField] private Slider soundSlider;
     [SerializeField] private Slider musicSlider;
+    [SerializeField] private Slider mainSlider;
 
     private void Start()
     {
@@ -21,6 +22,7 @@ public class VolumeSettings : MonoBehaviour
         {
             SetVolume();
             SetMusic();
+            SetMain();
         }
 
     }
@@ -39,10 +41,18 @@ public class VolumeSettings : MonoBehaviour
         PlayerPrefs.SetFloat("saveMusic", music);
     }
 
+    public void SetMain()
+    {
+        var main = mainSlider.value;
+        audioMixer.SetFloat("main", Mathf.Log10(main) * 20);
+        PlayerPrefs.SetFloat("saveMain", main);
+    }
+
     private void LoadVolume()
     {
         soundSlider.value = PlayerPrefs.GetFloat("saveVolume");
         musicSlider.value = PlayerPrefs.GetFloat("saveMusic");
+        mainSlider.value = PlayerPrefs.GetFloat("saveMain");
 
         SetVolume();
         SetMusic();

@@ -133,35 +133,47 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1468033947648073897, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.5549555
       objectReference: {fileID: 0}
     - target: {fileID: 1468033947648073897, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1706710109689482038, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.5549555
       objectReference: {fileID: 0}
     - target: {fileID: 1706710109689482038, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1706710109689482038, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5549555
       objectReference: {fileID: 0}
     - target: {fileID: 2875979144836790771, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
       propertyPath: m_Name
       value: OptionsMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 2875979144836790771, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355902550760400957, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5549555
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355902550760400957, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4034691049511836866, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.5549555
       objectReference: {fileID: 0}
     - target: {fileID: 4034691049511836866, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4432295190831787572, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
       propertyPath: m_Pivot.x
@@ -247,17 +259,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5841890224355931406, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5549555
+      objectReference: {fileID: 0}
+    - target: {fileID: 5841890224355931406, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5841890224355931406, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5549555
+      objectReference: {fileID: 0}
     - target: {fileID: 6612887264972217504, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.5549555
       objectReference: {fileID: 0}
     - target: {fileID: 6612887264972217504, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6612887264972217504, guid: e5b3c17ba87b33942b0d83506749d271, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5549555
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -506,6 +530,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8936864914169604357, guid: 1622d4d7fd836c848a025d0263e957d0, type: 3}
+      propertyPath: levelMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: eb432d56f89f5924c9f52ed5cb4a0e80, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

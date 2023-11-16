@@ -9,7 +9,8 @@ public class LoseConditionBehaviour : MonoBehaviour
     public AudioClip sound;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        MusicControler.Instance2.PlaySound(sound);
+        MusicControler.Instance.StopSound();
+        MusicControler.Instance.PlaySound(sound);
         Time.timeScale = 0.0f;
         defeatMenu.SetActive(true);
     }

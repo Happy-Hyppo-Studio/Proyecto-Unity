@@ -12,6 +12,7 @@ public class PauseButtonBehaviour : MonoBehaviour
         this.GetComponent<Button>().onClick.AddListener(() => {
             pauseMenu.SetActive(true);
             Time.timeScale = 0.0f;
+
         });
     }
 

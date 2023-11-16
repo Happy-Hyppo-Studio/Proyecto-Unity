@@ -22,7 +22,8 @@ public class WinConditionBehaviour : MonoBehaviour
             }
             if (win)
             {
-                MusicControler.Instance2.PlaySound(sound);
+                MusicControler.Instance.StopSound();
+                MusicControler.Instance.PlaySound(sound);
                 Time.timeScale = 0.0f;
                 winUI.SetActive(true);
             }
