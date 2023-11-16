@@ -6,8 +6,8 @@ public class RangerBehaviour : MonoBehaviour
     public GameObject bullet;
     public void Start()
     {
-        Vector3 spawnPoint = this.transform.position + new Vector3(-1,0,0);
         unit = GetComponent<UnitBehaviour>();
+        Vector3 spawnPoint =(unit.isAlly) ? this.transform.position + new Vector3(1, 0, 0) : this.transform.position + new Vector3(-1,0,0);
         StartCoroutine(shootClock.Cycle(() =>
         {
             //codigo de generador

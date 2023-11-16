@@ -568,7 +568,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1010307585
 PrefabInstance:
@@ -683,7 +683,7 @@ Transform:
   - {fileID: 751595553}
   - {fileID: 198558899}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1046496684 stripped
 Transform:
@@ -1317,7 +1317,7 @@ Transform:
   - {fileID: 1986088976}
   - {fileID: 1775427547}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1937042279
 GameObject:
@@ -1351,7 +1351,7 @@ Transform:
   - {fileID: 939780021}
   - {fileID: 167983032}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1951303899 stripped
 RectTransform:
@@ -1448,7 +1448,7 @@ RectTransform:
   - {fileID: 432483047}
   - {fileID: 2022667878}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2011,6 +2011,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2533371587313625956, guid: 1622d4d7fd836c848a025d0263e957d0, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 323abb941c00ed44ebe879257548a5f8, type: 3}
     - target: {fileID: 2533371587313625956, guid: 1622d4d7fd836c848a025d0263e957d0, type: 3}
       propertyPath: OutputAudioMixerGroup
       value: 

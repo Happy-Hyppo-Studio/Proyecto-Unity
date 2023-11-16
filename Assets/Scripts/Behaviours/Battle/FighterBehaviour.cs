@@ -34,4 +34,5 @@ public class FighterBehaviour : MonoBehaviour
             transform.position = new Vector3(transform.position.x, ypos, transform.position.z);
         }       
     }
+
 }

@@ -17,7 +17,7 @@ public class UnitBehaviour : MonoBehaviour
         }
     }
     [SerializeField] private AudioClip attackSound;
-    private int currentHealth; //vida actual
+    public int currentHealth; //vida actual
     private Coroutine hitCoroutine;
     public int maxHealth; // vida maxima
     public bool isAlly; //informacion de bando de la unidad
@@ -60,6 +60,31 @@ public class UnitBehaviour : MonoBehaviour
         if (fighter != null && unit.isAlly != isAlly)
         {
             StopCoroutine(hitCoroutine);//termina la corrutina de reloj empezada
+        }
+    } 
+    private void OnTriggerEnter2D(Collider2D collision)//si entra en su trigger, esto solo sucede con los proyectiles
+    {
+        FighterBehaviour fighter = collision.gameObject.GetComponent<FighterBehaviour>();
+        UnitBehaviour unit = collision.gameObject.GetComponent<UnitBehaviour>();
+        if (fighter != null && unit.isAlly != isAlly)//si choca un enemigo
+        {
+
+                EffectsControler.Instance.PlaySound(attackSound);
+                //CODIGO DE DAÑO, PROVISIONAL/////
+                //con operadores elvis para los extremos del enum elemental
+                if (unit.type == (type + 1 == (element)4 ? element.water : type + 1)) //elemento al que es debil
+                {
+                    health -= fighter.damage * 2;//doble de da�o, ajustar si es necesario
+                }
+                else if (unit.type == (type - 1 == (element)(-1) ? element.fire : type - 1))  //elemento al que es fuerte
+                {
+                    //SI EL DAÑO ES MENOR A 2 SE HACE 0
+                    health -= (int)(fighter.damage * 0.5f);//mitad de da�o, ajustar si es necesario
+                }
+                else //elemento igual o neutral
+                {
+                    health -= fighter.damage;//neutral
+                }
         }
     }
 }
