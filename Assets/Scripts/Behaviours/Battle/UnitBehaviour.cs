@@ -4,6 +4,9 @@ public class UnitBehaviour : MonoBehaviour
 {    
     public element type;//el elemento de la unidad
     private int health //getter y setter modificados de la vida actual
+
+    
+    
     {
         get { return currentHealth; } //original del getter
         set
@@ -11,8 +14,10 @@ public class UnitBehaviour : MonoBehaviour
             currentHealth = value; //original del setter
             if (currentHealth <= 0) //si la vida llega o supera el 0
             {
-                //destruccion automatica del objeto, si se quiere animacion de muerte cambiar esto
-                Destroy(gameObject);
+                //AnimationController.SetTrigger("DeathTrigger");
+                if (animatorControler != null) { animatorControler.SetTrigger("DeathTrigger"); }
+                else { Destroy(gameObject); };
+                
             }
         }
     }
@@ -21,8 +26,15 @@ public class UnitBehaviour : MonoBehaviour
     private Coroutine hitCoroutine;
     public int maxHealth; // vida maxima
     public bool isAlly; //informacion de bando de la unidad
+
+   
+    [SerializeField] private Animator animatorControler;
+
+
     public void Start()
     {
+        animatorControler = this.GetComponent<Animator>();//Recibimos el animator.
+
         currentHealth = maxHealth;//inicializar la vida al maximo
     }
     private void OnCollisionEnter2D(Collision2D collision)//si EMPIEZA a colisionar
