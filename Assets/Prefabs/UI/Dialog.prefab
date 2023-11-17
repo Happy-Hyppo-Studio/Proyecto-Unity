@@ -27,16 +27,17 @@ RectTransform:
   m_GameObject: {fileID: 666682857639292081}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2684374, y: 1.2375, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2422031350347532064}
   m_Father: {fileID: 6105313519967201543}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -50.00003, y: 30}
-  m_SizeDelta: {x: 0, y: 200}
+  m_AnchoredPosition: {x: -32.9238, y: 38.417}
+  m_SizeDelta: {x: -181.807, y: 186.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4879330078434209141
 CanvasRenderer:
@@ -112,8 +113,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 254.99997, y: -35}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 311.08, y: -9}
+  m_SizeDelta: {x: 77.845, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8579013274553877645
 CanvasRenderer:
@@ -143,7 +144,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 823cd9f4a87f68c41a1de0f070675cd7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0201e86ea5f7f5d428bef518fed72f0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -222,18 +223,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4978875003940393441}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.78837156, y: 0.80808085, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6105313519967201543}
+  m_Father: {fileID: 8942072488719211299}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -50.00003, y: 30}
-  m_SizeDelta: {x: -800, y: 100}
+  m_AnchoredPosition: {x: -51.304256, y: 24.71354}
+  m_SizeDelta: {x: -618.193, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &569021853628324063
 CanvasRenderer:
@@ -326,7 +327,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -271.51596, y: 0, z: -252.73218, w: 0}
+  m_margin: {x: -206.4769, y: 18.74622, z: -285.68387, w: -42.068665}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -367,7 +368,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.7767944, y: 190.9286}
+  m_AnchoredPosition: {x: 2.7767944, y: 167}
   m_SizeDelta: {x: 44.4464, y: 420.7502}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7897342189251112112
@@ -440,7 +441,6 @@ RectTransform:
   - {fileID: 4189065031511448320}
   - {fileID: 8942072488719211299}
   - {fileID: 6359359863364639355}
-  - {fileID: 2422031350347532064}
   - {fileID: 5064695287754141365}
   m_Father: {fileID: 0}
   m_RootOrder: -1
@@ -462,10 +462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f648e4e90531b64428d8a4ed477f8a5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialog:
-  - "Hola nena, \xBFEst\xE1s haciendo pollo frito?"
-  - Es broma, haces mucho ruido al mear.
-  - Me gusta.
+  dialog: []
   text: {fileID: 3434872885660480587}
   nextButton: {fileID: 5081877225737770328}
 --- !u!1 &7735091695376176300

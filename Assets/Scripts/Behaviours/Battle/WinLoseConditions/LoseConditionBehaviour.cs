@@ -12,6 +12,7 @@ public class LoseConditionBehaviour : MonoBehaviour
         MusicControler.Instance.StopSound();
         MusicControler.Instance.PlaySound(sound);
         Time.timeScale = 0.0f;
+        GameObject.FindWithTag("BigPause").SetActive(false);
         defeatMenu.SetActive(true);
     }
 }

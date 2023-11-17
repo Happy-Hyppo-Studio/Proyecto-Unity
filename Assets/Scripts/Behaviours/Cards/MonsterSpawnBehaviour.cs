@@ -15,13 +15,16 @@ public class MonsterSpawnBehaviour : MonoBehaviour
 
     void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Time.timeScale != 0.0f)
         {
-            
-            if (resourcesManager.resources[(int)cardManager.selection.GetComponent<UnitBehaviour>().type] >= 5) 
+            if (Input.GetMouseButtonDown(0))
             {
-                resourcesManager.ResourceChange(-5, cardManager.selection.GetComponent<UnitBehaviour>().type);
-                Instantiate(cardManager.selection, transform.position, transform.rotation);
+
+                if (resourcesManager.resources[(int)cardManager.selection.GetComponent<UnitBehaviour>().type] >= 5)
+                {
+                    resourcesManager.ResourceChange(-5, cardManager.selection.GetComponent<UnitBehaviour>().type);
+                    Instantiate(cardManager.selection, transform.position - new Vector3(0.0f, 0.0f, 2.0f), transform.rotation);
+                }
             }
         }
     }

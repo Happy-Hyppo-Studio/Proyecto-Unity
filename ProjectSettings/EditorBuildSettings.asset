@@ -31,6 +31,9 @@ EditorBuildSettings:
     guid: 5faeebce350bef842be84287c1dd16c5
   - enabled: 1
     path: Assets/Scenes/DefinitiveScenes/Level4Scene.unity
+    guid: dc3ee8d197663fd498bfebd74ec13f21
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/Level6Scene.unity
     guid: 005d9007a63157d44836e0e362520e42
   - enabled: 1
     path: Assets/Scenes/DefinitiveScenes/CreditScene.unity
