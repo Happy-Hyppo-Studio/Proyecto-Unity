@@ -371,6 +371,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3709221368155115068, guid: 33ef00071dd558341a52b7d3372c5922, type: 3}
     - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: formation.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
       propertyPath: timeOffsets.Array.size
       value: 6
       objectReference: {fileID: 0}
@@ -397,6 +401,14 @@ PrefabInstance:
     - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
       propertyPath: timeOffsets.Array.data[5]
       value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: formation.Array.data[0].enemy
+      value: 
+      objectReference: {fileID: 3709221368155115068, guid: 9cd412f1a8c10074f961e9a46e07bb8c, type: 3}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: formation.Array.data[0].secondsSincePrevious
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5571845417683286292, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
       propertyPath: m_Name
@@ -1797,6 +1809,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3709221368155115068, guid: 33ef00071dd558341a52b7d3372c5922, type: 3}
     - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: formation.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
       propertyPath: timeOffsets.Array.size
       value: 7
       objectReference: {fileID: 0}
@@ -1827,6 +1843,38 @@ PrefabInstance:
     - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
       propertyPath: timeOffsets.Array.data[6]
       value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: formation.Array.data[0].enemy
+      value: 
+      objectReference: {fileID: 3709221368155115068, guid: eff45708a9c84224eb5236bdddb999f7, type: 3}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: formation.Array.data[1].enemy
+      value: 
+      objectReference: {fileID: 3709221368155115068, guid: 33ef00071dd558341a52b7d3372c5922, type: 3}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: formation.Array.data[2].enemy
+      value: 
+      objectReference: {fileID: 3709221368155115068, guid: 9cd412f1a8c10074f961e9a46e07bb8c, type: 3}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: formation.Array.data[3].enemy
+      value: 
+      objectReference: {fileID: 3709221368155115068, guid: 09bbac69d0bea194dba2fae70a6eba5b, type: 3}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: formation.Array.data[0].secondsSincePrevious
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: formation.Array.data[1].secondsSincePrevious
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: formation.Array.data[2].secondsSincePrevious
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: formation.Array.data[3].secondsSincePrevious
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5571845417683286292, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
       propertyPath: m_Name
@@ -2619,6 +2667,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3709221368155115068, guid: 33ef00071dd558341a52b7d3372c5922, type: 3}
     - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: formation.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
       propertyPath: timeOffsets.Array.size
       value: 8
       objectReference: {fileID: 0}
@@ -2653,6 +2705,14 @@ PrefabInstance:
     - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
       propertyPath: timeOffsets.Array.data[7]
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: formation.Array.data[0].enemy
+      value: 
+      objectReference: {fileID: 3709221368155115068, guid: eff45708a9c84224eb5236bdddb999f7, type: 3}
+    - target: {fileID: 5333588034154335359, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
+      propertyPath: formation.Array.data[0].secondsSincePrevious
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5571845417683286292, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
       propertyPath: m_Name
