@@ -33,15 +33,18 @@ EditorBuildSettings:
     path: Assets/Scenes/DefinitiveScenes/Level4Scene.unity
     guid: dc3ee8d197663fd498bfebd74ec13f21
   - enabled: 1
-    path: Assets/Scenes/DefinitiveScenes/Level6Scene.unity
+    path: Assets/Scenes/DefinitiveScenes/Level5Scene.unity
     guid: 005d9007a63157d44836e0e362520e42
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/Level6Scene.unity
+    guid: 58b8df4925b118044a3573b07fbbf2f6
   - enabled: 1
     path: Assets/Scenes/DefinitiveScenes/CreditScene.unity
     guid: 07151761d1041f34a955b68512324939
   - enabled: 1
     path: Assets/Scenes/DefinitiveScenes/ShopScene.unity
     guid: 95fe4481043a2a24ba97a7d3e04cf6df
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestingScenes/TestingColectores.unity
     guid: 62d6dde6d3add78468cfa5f12914715b
   - enabled: 0
