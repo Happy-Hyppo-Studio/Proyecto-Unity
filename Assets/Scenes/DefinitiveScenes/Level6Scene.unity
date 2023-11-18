@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8838768}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 2}
   m_LocalScale: {x: 2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -364,11 +364,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[0]
-      value: "Ya te he ense\xF1ado lo que necesitas saber"
+      value: "\xA1Cuidado! Se acerca una gran oleada de enemigos."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[1]
-      value: "\xA1Mucha suerte!"
+      value: "Vas a necesitar actuar r\xE1pido."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+      propertyPath: dialog.Array.data[2]
+      value: "Utiliza lo que te he ense\xF1ado p"
       objectReference: {fileID: 0}
     - target: {fileID: 6105313519967201543, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: m_Pivot.x
@@ -1288,7 +1292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7856623589232742334, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.37
+      value: -0.03
       objectReference: {fileID: 0}
     - target: {fileID: 7856623589232742334, guid: 8657ee35f8fe50b4b9d6515784519add, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1455,7 +1459,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9059751889378858892, guid: ade32949fb0e7c6429dfacb735f6236d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9059751889378858892, guid: ade32949fb0e7c6429dfacb735f6236d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2410,7 +2414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9059751889378858892, guid: 5991aa39f066cb043a42371edb2a6c0a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9059751889378858892, guid: 5991aa39f066cb043a42371edb2a6c0a, type: 3}
       propertyPath: m_LocalRotation.w
