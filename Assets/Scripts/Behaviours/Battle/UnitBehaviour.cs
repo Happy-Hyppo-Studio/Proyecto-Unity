@@ -16,12 +16,12 @@ public class UnitBehaviour : MonoBehaviour
             if (currentHealth <= 0) //si la vida llega o supera el 0
             {
                 //AnimationController.SetTrigger("DeathTrigger");
-                if (animatorControler != null) { animatorControler.SetTrigger("DeathTrigger"); }
+                if (animatorControler != null) { 
+                    animatorControler.SetTrigger("DeathTrigger"); 
+                }
                 else { 
                     Destroy(gameObject);
-                    deathAction();
                 };
-                
             }
         }
     }
@@ -103,5 +103,9 @@ public class UnitBehaviour : MonoBehaviour
                     health -= fighter.damage;//neutral
                 }
         }
+    }
+    private void OnDestroy()
+    {
+        if (deathAction != null) deathAction();
     }
 }
