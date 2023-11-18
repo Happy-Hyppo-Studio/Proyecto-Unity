@@ -1201,6 +1201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddef88faa899dd7488d31d37fcb8bcae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fullscreen: {fileID: 88610999404542283}
 --- !u!1 &3185117223860413110
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,8 +1231,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4935321002788894360}
   - {fileID: 4496105333351827216}
+  - {fileID: 4935321002788894360}
   - {fileID: 4078929543886651316}
   m_Father: {fileID: 4432295190831787572}
   m_RootOrder: -2
@@ -1256,7 +1257,7 @@ MonoBehaviour:
   audioMixer: {fileID: 24100000, guid: 1f4f9d99183e3534fb9c9607b47e5ed8, type: 2}
   soundSlider: {fileID: 6480934275695381858}
   musicSlider: {fileID: 2827634224126776638}
-  mainSlider: {fileID: 0}
+  mainSlider: {fileID: 2626619038546739685}
 --- !u!1 &3698838751503490599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1295,7 +1296,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -25}
   m_SizeDelta: {x: 800, y: 51.057}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2827634224126776638
@@ -1508,7 +1509,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -100}
+  m_AnchoredPosition: {x: 0, y: -141}
   m_SizeDelta: {x: 800, y: 51.057}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6480934275695381858
@@ -1703,7 +1704,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4078929543886651316
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2393,7 +2394,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -3}
+  m_AnchoredPosition: {x: -65, y: -3}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &88610999404542283
@@ -2444,7 +2445,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1717063865871907362}
-        m_TargetAssemblyTypeName: AudioOptionsBehabiour, Assembly-CSharp
+        m_TargetAssemblyTypeName: OptionsBehabiour, Assembly-CSharp
         m_MethodName: SetFullscreen
         m_Mode: 0
         m_Arguments:
@@ -2453,9 +2454,9 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &6341653450955375340
 GameObject:
   m_ObjectHideFlags: 0
@@ -3276,7 +3277,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5549555, y: 0}
   m_AnchorMax: {x: 0.5549555, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_SizeDelta: {x: 50, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2989535540195780490
 CanvasRenderer:

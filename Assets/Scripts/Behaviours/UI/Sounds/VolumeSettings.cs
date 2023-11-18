@@ -56,5 +56,6 @@ public class VolumeSettings : MonoBehaviour
 
         SetVolume();
         SetMusic();
+        SetMain();
     }
 }
