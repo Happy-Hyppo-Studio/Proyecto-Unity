@@ -1,4 +1,5 @@
-﻿using System.Xml.Linq;
+﻿using System;
+using System.Xml.Linq;
 using UnityEngine;
 public class UnitBehaviour : MonoBehaviour
 {    
@@ -16,7 +17,10 @@ public class UnitBehaviour : MonoBehaviour
             {
                 //AnimationController.SetTrigger("DeathTrigger");
                 if (animatorControler != null) { animatorControler.SetTrigger("DeathTrigger"); }
-                else { Destroy(gameObject); };
+                else { 
+                    Destroy(gameObject);
+                    deathAction();
+                };
                 
             }
         }
@@ -24,6 +28,7 @@ public class UnitBehaviour : MonoBehaviour
     [SerializeField] private AudioClip attackSound;
     public int currentHealth; //vida actual
     private Coroutine hitCoroutine;
+    public Action deathAction;
     public int maxHealth; // vida maxima
     public bool isAlly; //informacion de bando de la unidad
 
