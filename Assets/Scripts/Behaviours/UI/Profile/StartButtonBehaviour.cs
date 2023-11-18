@@ -21,7 +21,7 @@ public class StartButtonBehaviour : MonoBehaviour
             //sw.WriteLine(name + " " + characterInput.GetComponent<CharacterSelectBehaviour>().character + " " + ageInput.GetComponent<AgeUIBehaviour>().ageInt);
             //sw.Close();
             SceneManager.LoadScene(2);
-
+            MusicControler.Instance.PauseSound();
         });
     }
 

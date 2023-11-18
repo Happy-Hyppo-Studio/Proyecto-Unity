@@ -11,9 +11,11 @@ public class VictoryMenuBehaviour : MonoBehaviour
     void Start()
     {
         continueButton.onClick.AddListener(() => {
+            MusicControler.Instance.StopSound();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);//Carga el siguiente nivel a este, habria que comprobar que no sea el último
         });
         forfeitButton.onClick.AddListener(() => {
+            MusicControler.Instance.StopSound();
             SceneManager.LoadScene(3);//Carga el selector de nivel
         });
 

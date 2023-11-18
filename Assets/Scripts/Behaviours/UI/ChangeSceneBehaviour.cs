@@ -13,6 +13,7 @@ public class ChangeSceneBehaviour : MonoBehaviour
     {
         GetComponent<Button>().onClick.AddListener(() =>
         {
+            MusicControler.Instance.PauseSound();
             SceneManager.LoadScene(scene);
         });
     }
