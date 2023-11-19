@@ -27,7 +27,8 @@ public class WinConditionBehaviour : MonoBehaviour
                 MusicControler.Instance.StopSound();
                 MusicControler.Instance.PlaySound(sound);
                 Time.timeScale = 0.0f;
-                GameObject.FindWithTag("BigPause").SetActive(false);
+                GameObject pause = GameObject.FindWithTag("BigPause");
+                if (pause != null) pause.SetActive(false);
                 winUI.SetActive(true);
             }
         });

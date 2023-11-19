@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4675265237746548157}
   - component: {fileID: 2497221541326522965}
   - component: {fileID: 7299493687535029250}
-  - component: {fileID: 6904277692142203143}
+  - component: {fileID: 2766607116719777289}
   m_Layer: 0
   m_Name: EnemyTower
   m_TagString: Untagged
@@ -173,9 +173,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 4
+  attackSound: {fileID: 0}
+  currentHealth: 0
   maxHealth: 10
   isAlly: 0
---- !u!114 &6904277692142203143
+  animatorControler: {fileID: 0}
+--- !u!114 &2766607116719777289
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -184,9 +187,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3709221368155115068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdeecf253ab6d724cb1892b4f37a4ddc, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e3fa1b02dfae8f4a9dd285a67697242, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootClock:
-    Frequency: 10
-  bullet: {fileID: 3709221368155115068, guid: 33ef00071dd558341a52b7d3372c5922, type: 3}
+  formation: []
