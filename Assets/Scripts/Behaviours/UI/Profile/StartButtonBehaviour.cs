@@ -23,6 +23,13 @@ public class StartButtonBehaviour : MonoBehaviour
             SceneManager.LoadScene(2);
             MusicControler.Instance.PauseSound();
         });
+        nameInput.onSelect.AddListener((str) => {
+            if (TouchScreenKeyboard.isSupported)
+            {
+                TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default);
+            }
+        });
     }
+    
 
 }
