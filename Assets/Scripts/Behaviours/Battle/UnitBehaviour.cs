@@ -56,12 +56,12 @@ public class UnitBehaviour : MonoBehaviour
                 //con operadores elvis para los extremos del enum elemental
                 if (unit.type == (type + 1 == (element)4 ? element.water : type + 1)) //elemento al que es debil
                 {
-                    health -= fighter.damage * 2;//doble de da�o, ajustar si es necesario
+                    health -= (int)(fighter.damage * 1.5f);//doble de da�o, ajustar si es necesario
                 }
                 else if (unit.type == (type - 1 == (element)(-1) ? element.fire : type - 1))  //elemento al que es fuerte
                 {
                     //SI EL DAÑO ES MENOR A 2 SE HACE 0
-                    health -= (int)(fighter.damage * 0.5f);//mitad de da�o, ajustar si es necesario
+                    health -= (int)(fighter.damage / 1.5f);//mitad de da�o, ajustar si es necesario
                 }
                 else //elemento igual o neutral
                 {

@@ -176,7 +176,7 @@ MonoBehaviour:
   type: 2
   attackSound: {fileID: 8300000, guid: f87ffab8048b63e4da19f878353e864b, type: 3}
   currentHealth: 0
-  maxHealth: 10
+  maxHealth: 100
   isAlly: 1
   animatorControler: {fileID: 0}
 --- !u!114 &5605975165405171860
@@ -191,8 +191,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fd07449af1012143a2035470c34525c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
-  speed: {x: 1, y: 0}
+  damage: 5
+  speed: {x: 0.45, y: 0}
   hitClock:
     Frequency: 0.5
   animatorControler: {fileID: 0}

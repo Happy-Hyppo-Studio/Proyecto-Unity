@@ -174,8 +174,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 3
   attackSound: {fileID: 8300000, guid: 97b7330379f71e348986f76257014672, type: 3}
-  maxHealth: 10
+  currentHealth: 0
+  maxHealth: 50
   isAlly: 1
+  animatorControler: {fileID: 0}
 --- !u!114 &5605975165405171860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,7 +190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fd07449af1012143a2035470c34525c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
-  speed: {x: 1, y: 0}
+  damage: 10
+  speed: {x: 2, y: 0}
   hitClock:
     Frequency: 1
+  animatorControler: {fileID: 0}

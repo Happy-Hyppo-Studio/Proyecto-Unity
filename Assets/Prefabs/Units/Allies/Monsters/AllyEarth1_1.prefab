@@ -177,7 +177,7 @@ MonoBehaviour:
   type: 1
   attackSound: {fileID: 8300000, guid: 53b4a8acd0e654644bd5732b93301cb5, type: 3}
   currentHealth: 0
-  maxHealth: 10
+  maxHealth: 40
   isAlly: 1
   animatorControler: {fileID: 0}
 --- !u!114 &6927051497557177478
