@@ -22,6 +22,7 @@
 
 # Ignore Database
 [Aa]ssets/Database/*
+[Aa]ssets/Database/*.meta
 
 # Visual Studio cache directory
 .vs/
