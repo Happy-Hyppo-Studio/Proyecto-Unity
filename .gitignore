@@ -21,7 +21,8 @@
 [Aa]ssets/Plugins/Editor/JetBrains*
 
 # Ignore Database
-[Aa]ssets/Database/*
+[Aa]ssets/Database/KEEPSAFE/*
+[Aa]ssets/Database/KEEPSAFE/*.meta
 [Aa]ssets/Database/*.meta
 
 # Visual Studio cache directory
