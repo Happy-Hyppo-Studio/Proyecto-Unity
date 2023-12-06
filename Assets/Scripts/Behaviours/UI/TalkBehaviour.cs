@@ -21,8 +21,8 @@ public class TalkBehaviour : MonoBehaviour
             currentDialog++;
             if (currentDialog < dialog.Length)
             {
+                image[currentDialog - 1].SetActive(false);
                 image[currentDialog].SetActive(true);
-                image[currentDialog-1].SetActive(false);
                 text.text = dialog[currentDialog];
             }
             else

@@ -175,7 +175,7 @@ MonoBehaviour:
   type: 4
   attackSound: {fileID: 0}
   currentHealth: 0
-  maxHealth: 10
+  maxHealth: 120
   isAlly: 0
   animatorControler: {fileID: 0}
 --- !u!114 &2766607116719777289
