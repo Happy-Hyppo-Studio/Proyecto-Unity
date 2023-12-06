@@ -11,6 +11,7 @@ public class StartButtonBehaviour : MonoBehaviour
 {
     public GameObject ageInput, characterInput;
     public TMP_InputField nameInput;
+    private TouchScreenKeyboard keyboard;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,13 +24,20 @@ public class StartButtonBehaviour : MonoBehaviour
             SceneManager.LoadScene(2);
             MusicControler.Instance.PauseSound();
         });
+        
         nameInput.onSelect.AddListener((str) => {
             if (TouchScreenKeyboard.isSupported)
             {
-                TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default);
+                keyboard = TouchScreenKeyboard.Open(nameInput.text, TouchScreenKeyboardType.Default);
             }
         });
+
     }
-    
+    private void OnGUI()
+    {
+        if (keyboard != null)
+            nameInput.text = keyboard.text;
+    }
+
 
 }

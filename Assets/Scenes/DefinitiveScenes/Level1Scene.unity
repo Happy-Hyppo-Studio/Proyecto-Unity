@@ -2209,9 +2209,25 @@ PrefabInstance:
     m_TransformParent: {fileID: 118284013206290282}
     m_Modifications:
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+      propertyPath: image.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.size
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+      propertyPath: image.Array.data[0]
+      value: 
+      objectReference: {fileID: 7720641875085581791}
+    - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+      propertyPath: image.Array.data[1]
+      value: 
+      objectReference: {fileID: 7720641875085581791}
+    - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+      propertyPath: image.Array.data[2]
+      value: 
+      objectReference: {fileID: 7720641875085581791}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[0]
       value: "Bienvenido a tu primera lecci\xF3n."
@@ -2252,6 +2268,10 @@ PrefabInstance:
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[9]
       value: Armate de estos conocimientos para derrotar a los enemigos.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+      propertyPath: image.Array.data[10]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3434872885660480587, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: m_margin.x
@@ -2354,6 +2374,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+--- !u!1 &7720641875085581791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 840763300571914981, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+  m_PrefabInstance: {fileID: 7720641875085581790}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8315874384076677124
 PrefabInstance:
   m_ObjectHideFlags: 0
