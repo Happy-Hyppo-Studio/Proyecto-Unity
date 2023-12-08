@@ -25,7 +25,6 @@ public class UnitBehaviour : MonoBehaviour
             }
         }
     }
-    [SerializeField] private AudioClip attackSound;
     public int currentHealth; //vida actual
     private Coroutine hitCoroutine;
     public Action deathAction;
@@ -50,8 +49,6 @@ public class UnitBehaviour : MonoBehaviour
         {
             hitCoroutine = StartCoroutine(fighter.hitClock.Cycle(() => 
             {
-
-                EffectsControler.Instance.PlaySound(attackSound);
                 //CODIGO DE DAÑO, PROVISIONAL/////
                 //con operadores elvis para los extremos del enum elemental
                 if (unit.type == (type + 1 == (element)4 ? element.water : type + 1)) //elemento al que es debil
@@ -86,7 +83,7 @@ public class UnitBehaviour : MonoBehaviour
         if (fighter != null && unit.isAlly != isAlly)//si choca un enemigo
         {
 
-                EffectsControler.Instance.PlaySound(attackSound);
+                //EffectsControler.Instance.PlaySound(attackSound);
                 //CODIGO DE DAÑO, PROVISIONAL/////
                 //con operadores elvis para los extremos del enum elemental
                 if (unit.type == (type + 1 == (element)4 ? element.water : type + 1)) //elemento al que es debil

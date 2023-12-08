@@ -696,7 +696,13 @@ MonoBehaviour:
   - {fileID: 3709221368155115068, guid: bd7d0f5de8d6d954c93212f944bc33a4, type: 3}
   - {fileID: 3709221368155115068, guid: 85a541e513c94e744acfe3131e4a979f, type: 3}
   - {fileID: 3709221368155115068, guid: c9e83f3a076680d4d99fd9b05ad18a61, type: 3}
+  orderedSounds:
+  - {fileID: 8300000, guid: 49d7ff0f5c88d574d99761b7edd9f221, type: 3}
+  - {fileID: 8300000, guid: 53b4a8acd0e654644bd5732b93301cb5, type: 3}
+  - {fileID: 8300000, guid: f87ffab8048b63e4da19f878353e864b, type: 3}
+  - {fileID: 8300000, guid: 97b7330379f71e348986f76257014672, type: 3}
   selection: {fileID: 3709221368155115068, guid: d082041c831be6546b60204493cfb233, type: 3}
+  soundSelection: {fileID: 0}
   orderedButtons:
   - {fileID: 2645135143320449832}
   - {fileID: 394852169450609928}

@@ -24,6 +24,7 @@ public class MonsterSpawnBehaviour : MonoBehaviour
                 {
                     resourcesManager.ResourceChange(-5, cardManager.selection.GetComponent<UnitBehaviour>().type);
                     Instantiate(cardManager.selection, transform.position - new Vector3(0.0f, 0.0f, 2.0f), transform.rotation);
+                    EffectsControler.Instance.PlaySound(cardManager.soundSelection);
                 }
             }
         }

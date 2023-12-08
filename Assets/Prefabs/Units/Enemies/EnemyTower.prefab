@@ -503,7 +503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 4
-  attackSound: {fileID: 0}
+  spawnSound: {fileID: 0}
   currentHealth: 0
   maxHealth: 120
   isAlly: 0
@@ -520,6 +520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e3fa1b02dfae8f4a9dd285a67697242, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnSound: {fileID: 8300000, guid: bffe1e9dc13abc045a712fb017c63e6c, type: 3}
   formation: []
 --- !u!1 &7877447085415441752
 GameObject:
