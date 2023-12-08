@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Xml.Linq;
 using UnityEngine;
+using System.Collections;
+using UnityEngine.SceneManagement;
+
 public class UnitBehaviour : MonoBehaviour
 {    
     public element type;//el elemento de la unidad
@@ -19,12 +22,15 @@ public class UnitBehaviour : MonoBehaviour
                 if (animatorControler != null) { 
                     animatorControler.SetTrigger("DeathTrigger"); 
                 }
-                else { 
+                else {
                     Destroy(gameObject);
-                };
+                }
             }
         }
     }
+
+    [SerializeField] public AudioClip attackSound;
+
     public int currentHealth; //vida actual
     private Coroutine hitCoroutine;
     public Action deathAction;
@@ -33,13 +39,21 @@ public class UnitBehaviour : MonoBehaviour
 
    
     [SerializeField] private Animator animatorControler;
-
+    private bool fireWeakened;
 
     public void Start()
     {
         animatorControler = this.GetComponent<Animator>();//Recibimos el animator.
 
         currentHealth = maxHealth;//inicializar la vida al maximo
+
+
+        int scene = SceneManager.GetActiveScene().buildIndex;
+
+        if (scene >= 1)
+        {
+            fireWeakened = true;
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)//si EMPIEZA a colisionar
     {
@@ -49,6 +63,8 @@ public class UnitBehaviour : MonoBehaviour
         {
             hitCoroutine = StartCoroutine(fighter.hitClock.Cycle(() => 
             {
+                EffectsControler.Instance.PlaySound(attackSound);
+
                 //CODIGO DE DAÑO, PROVISIONAL/////
                 //con operadores elvis para los extremos del enum elemental
                 if (unit.type == (type + 1 == (element)4 ? element.water : type + 1)) //elemento al que es debil
@@ -101,6 +117,21 @@ public class UnitBehaviour : MonoBehaviour
                 }
         }
     }
+
+    public IEnumerator DañoEntorno()
+    {
+        this.health -= 10;
+        yield return new WaitForSeconds(3.0f);
+    }
+
+    public void FixedUpdate()
+    {
+        if (fireWeakened && this.type == element.air)
+        {
+           StartCoroutine(DañoEntorno());
+        }
+    }
+
     private void OnDestroy()
     {
         if (deathAction != null) deathAction();

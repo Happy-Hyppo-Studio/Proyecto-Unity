@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  attackSound: {fileID: 8300000, guid: bffe1e9dc13abc045a712fb017c63e6c, type: 3}
+  attackSound: {fileID: 8300000, guid: e62995e7b3d3340459984d6b3ba8c239, type: 3}
   currentHealth: 0
   maxHealth: 60
   isAlly: 0

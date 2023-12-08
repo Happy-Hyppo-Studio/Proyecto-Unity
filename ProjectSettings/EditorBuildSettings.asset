@@ -21,29 +21,68 @@ EditorBuildSettings:
     path: Assets/Scenes/DefinitiveScenes/LevelSelectScene.unity
     guid: ff6163e6d49531a41848961d037988f9
   - enabled: 1
-    path: Assets/Scenes/DefinitiveScenes/Level1Scene.unity
-    guid: a2c523da81ab2914a81cfb310f0eefbe
-  - enabled: 1
-    path: Assets/Scenes/DefinitiveScenes/Level2Scene.unity
-    guid: 28f85baa3231a464793a593a94c6aa20
-  - enabled: 1
-    path: Assets/Scenes/DefinitiveScenes/Level3Scene.unity
-    guid: 5faeebce350bef842be84287c1dd16c5
-  - enabled: 1
-    path: Assets/Scenes/DefinitiveScenes/Level4Scene.unity
-    guid: dc3ee8d197663fd498bfebd74ec13f21
-  - enabled: 1
-    path: Assets/Scenes/DefinitiveScenes/Level5Scene.unity
-    guid: 005d9007a63157d44836e0e362520e42
-  - enabled: 1
-    path: Assets/Scenes/DefinitiveScenes/Level6Scene.unity
-    guid: 58b8df4925b118044a3573b07fbbf2f6
+    path: Assets/Scenes/DefinitiveScenes/ShopScene.unity
+    guid: 95fe4481043a2a24ba97a7d3e04cf6df
   - enabled: 1
     path: Assets/Scenes/DefinitiveScenes/CreditScene.unity
     guid: 07151761d1041f34a955b68512324939
   - enabled: 1
-    path: Assets/Scenes/DefinitiveScenes/ShopScene.unity
-    guid: 95fe4481043a2a24ba97a7d3e04cf6df
+    path: Assets/Scenes/DefinitiveScenes/Tutorial1Scene.unity
+    guid: 7459f363c5bae9946bf860689a47d4a0
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/Tutorial2Scene.unity
+    guid: ca586dd89cde12c418ff0feb0ab3add4
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/Tutorial3Scene.unity
+    guid: 35675e9eff748e347afe53fd4c3136b0
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/Tutorial4Scene.unity
+    guid: 1ad29aa6519092c4296f22c07f57422f
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/Tutorial5Scene.unity
+    guid: baa584d7becf5a34c932daf1d9c11b64
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/Tutorial6Scene.unity
+    guid: b1a0a71e7397358409a02511f2710e4e
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/World1Level1.unity
+    guid: 275d9b239a86be242b78b590085f20c7
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/World1Level2.unity
+    guid: eda8e5a46ec93a847a04a675971a5e7d
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/World1Level3.unity
+    guid: d2f2ee9769bd6db47998f6d99de17d15
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/World1Level4.unity
+    guid: 4848293d7facc5f46a83994593addb4c
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/World1Level5.unity
+    guid: e5ddc8b64109f934ab6a23fdef16c1c0
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/World1Level6.unity
+    guid: 27dd1aa651a2f4b49a84d2747d80d32f
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/World2Level1.unity
+    guid: 51f4b40dab3132c47b60639f5d2d0a30
+  - enabled: 0
+    path: Assets/Scenes/TestingScenes/Level1Scene.unity
+    guid: a2c523da81ab2914a81cfb310f0eefbe
+  - enabled: 0
+    path: Assets/Scenes/TestingScenes/Level2Scene.unity
+    guid: 28f85baa3231a464793a593a94c6aa20
+  - enabled: 0
+    path: Assets/Scenes/TestingScenes/Level3Scene.unity
+    guid: 5faeebce350bef842be84287c1dd16c5
+  - enabled: 0
+    path: Assets/Scenes/TestingScenes/Level4Scene.unity
+    guid: dc3ee8d197663fd498bfebd74ec13f21
+  - enabled: 0
+    path: Assets/Scenes/TestingScenes/Level5Scene.unity
+    guid: 005d9007a63157d44836e0e362520e42
+  - enabled: 0
+    path: Assets/Scenes/TestingScenes/Level6Scene.unity
+    guid: 58b8df4925b118044a3573b07fbbf2f6
   - enabled: 0
     path: Assets/Scenes/TestingScenes/TestingColectores.unity
     guid: 62d6dde6d3add78468cfa5f12914715b
