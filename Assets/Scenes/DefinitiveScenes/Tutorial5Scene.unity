@@ -1949,7 +1949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[1]
-      value: "\xBFQue tal si pruebas a usar lo que te he ense\xF1ado hasta ahora
+      value: "\xBFQu\xE9 tal si pruebas a usar lo que te he ense\xF1ado hasta ahora
         contra algunos enemigos m\xE1s?"
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}

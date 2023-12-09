@@ -17,7 +17,7 @@ public class SelectFactoryBehaviour : MonoBehaviour
         if (Time.timeScale != 0.0f) { 
             if (Input.GetMouseButtonDown(0))
             {
-                Instantiate(factory, transform.parent.transform.position + new Vector3(0.0f, 0.439f, +0.0f), transform.rotation);
+                Instantiate(factory, transform.parent.transform.position + new Vector3(0.0f, 0.439f, +0.0f)*0.75f, transform.rotation);
                 father.SetActive(false);
             }
         }

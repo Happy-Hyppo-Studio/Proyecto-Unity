@@ -11,7 +11,7 @@ public class DestroyerBehaviour : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                Instantiate(spawner, factory.transform.position + new Vector3(0.0f, 1.0f, +0.0f), transform.rotation);
+                Instantiate(spawner, factory.transform.position + new Vector3(0.0f, 1.0f, +0.0f)*0.6f/0.8f, transform.rotation);
                 Destroy(factory);
                 
             }

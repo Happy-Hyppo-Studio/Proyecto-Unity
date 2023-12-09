@@ -1842,8 +1842,8 @@ PrefabInstance:
       objectReference: {fileID: 443270875}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[0]
-      value: Bien, ya has visto como funcionan algunas de las criaturas que nos ayudaran
-        en este viaje.
+      value: "Bien, ya has visto como funcionan algunas de las criaturas que nos
+        ayudar\xE1n en este viaje."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[1]
@@ -1861,7 +1861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[4]
-      value: "\xBFQue tal si lo pruebas?"
+      value: "\xBFQu\xE9 tal si lo pruebas?"
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[5]

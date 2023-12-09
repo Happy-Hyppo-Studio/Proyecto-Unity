@@ -19,7 +19,6 @@ public class CardManagerBehaviour : MonoBehaviour
             {
                 selection = orderedPrefabs[sel];
                 soundSelection = orderedSounds[sel];
-
                 selectedAlly.GetComponent<RectTransform>().localPosition = new Vector3 (-200.0f+135.0f*sel, 0.0f, 0.0f);
             });
         }

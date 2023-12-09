@@ -1980,20 +1980,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[1]
-      value: El fenix es muy similar al kappa en cuanto a fuerza y vida.
+      value: "\xC9l fenix es muy similar al kappa en cuanto a fuerza y vida."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[2]
-      value: "Sin embargo es mucho m\xE1s r\xE1pido que todos los demas."
+      value: "Sin embargo es mucho m\xE1s r\xE1pido que todos los dem\xE1s."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[3]
       value: "Puede empujar unidades aliadas para que vayan m\xE1s r\xE1pido, por
-        lo que es muy util si necesitas refuerzos."
+        lo que es muy \xFAtil si necesitas refuerzos."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[4]
-      value: "All\xED hay un Kappa que necesita ayuda. \xA1Brindale algo de apoyo!"
+      value: "All\xED hay un Kappa que necesita ayuda. \xA1Br\xEDndale algo de apoyo!"
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[5]

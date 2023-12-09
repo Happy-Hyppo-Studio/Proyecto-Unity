@@ -63,8 +63,23 @@ EditorBuildSettings:
     path: Assets/Scenes/DefinitiveScenes/World1Level6.unity
     guid: 27dd1aa651a2f4b49a84d2747d80d32f
   - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/World2Level1.unity
+    guid: 279dab6efc438d5428a7e9b500f646ff
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/World2Level2.unity
+    guid: c91e61a76fd10ef4987217929588dca4
+  - enabled: 1
     path: Assets/Scenes/DefinitiveScenes/World2Level3.unity
     guid: 51f4b40dab3132c47b60639f5d2d0a30
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/World2Level4.unity
+    guid: 7ad0ea655a5f21348ad6ae5d0daa0e47
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/World2Level5.unity
+    guid: e026e2bde1a3aa44c9878ff4c805ae18
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/World2Level6.unity
+    guid: 8077afcd1cfbd3348a0d4a953a44d958
   - enabled: 0
     path: Assets/Scenes/TestingScenes/Level1Scene.unity
     guid: a2c523da81ab2914a81cfb310f0eefbe
