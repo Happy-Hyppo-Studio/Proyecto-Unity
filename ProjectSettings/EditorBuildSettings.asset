@@ -24,8 +24,8 @@ EditorBuildSettings:
     path: Assets/Scenes/DefinitiveScenes/ShopScene.unity
     guid: 95fe4481043a2a24ba97a7d3e04cf6df
   - enabled: 1
-    path: Assets/Scenes/DefinitiveScenes/CreditScene.unity
-    guid: 07151761d1041f34a955b68512324939
+    path: Assets/Scenes/TestingScenes/Level1Scene.unity
+    guid: a2c523da81ab2914a81cfb310f0eefbe
   - enabled: 1
     path: Assets/Scenes/DefinitiveScenes/Tutorial1Scene.unity
     guid: 7459f363c5bae9946bf860689a47d4a0
@@ -80,9 +80,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DefinitiveScenes/World2Level6.unity
     guid: 8077afcd1cfbd3348a0d4a953a44d958
-  - enabled: 0
-    path: Assets/Scenes/TestingScenes/Level1Scene.unity
-    guid: a2c523da81ab2914a81cfb310f0eefbe
+  - enabled: 1
+    path: Assets/Scenes/DefinitiveScenes/CreditScene.unity
+    guid: 07151761d1041f34a955b68512324939
   - enabled: 0
     path: Assets/Scenes/TestingScenes/Level2Scene.unity
     guid: 28f85baa3231a464793a593a94c6aa20

@@ -426,42 +426,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1386522844894187764, guid: e2c850adcfc90534ba505901f5006d02, type: 3}
   m_PrefabInstance: {fileID: 3856123804261127157}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &443270875
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 443270876}
-  m_Layer: 5
-  m_Name: empty
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &443270876
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 443270875}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2022667878}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &645160400
 GameObject:
   m_ObjectHideFlags: 0
@@ -2365,31 +2329,31 @@ PrefabInstance:
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: image.Array.data[0]
       value: 
-      objectReference: {fileID: 443270875}
+      objectReference: {fileID: 7720641875085581791}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: image.Array.data[1]
       value: 
-      objectReference: {fileID: 443270875}
+      objectReference: {fileID: 7720641875085581791}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: image.Array.data[2]
       value: 
-      objectReference: {fileID: 443270875}
+      objectReference: {fileID: 7720641875085581791}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: image.Array.data[3]
       value: 
-      objectReference: {fileID: 443270875}
+      objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: image.Array.data[4]
       value: 
-      objectReference: {fileID: 443270875}
+      objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: image.Array.data[5]
       value: 
-      objectReference: {fileID: 443270875}
+      objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: image.Array.data[6]
       value: 
-      objectReference: {fileID: 443270875}
+      objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[0]
       value: "Bueno, de ahora en adelante tendr\xE1s que continuar solo."
@@ -2531,12 +2495,14 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6105313519967201543, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 443270876}
-    - targetCorrespondingSourceObject: {fileID: 6105313519967201543, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 236149406}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+--- !u!1 &7720641875085581791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3194903240089335567, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+  m_PrefabInstance: {fileID: 7720641875085581790}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8315874384076677124
 PrefabInstance:
   m_ObjectHideFlags: 0

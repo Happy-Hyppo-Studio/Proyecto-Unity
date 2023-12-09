@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class TalkBehaviour : MonoBehaviour
 {
     public string[] dialog;
+    public GameObject[] image;
+    public GameObject img;
     public TMP_Text text;
     Coroutine dialogue;
     public float textSpeed = 0.3f;
@@ -53,6 +55,8 @@ public class TalkBehaviour : MonoBehaviour
         while (letterI < dialog[dialogueI].Length)
         {
             text.text += dialog[dialogueI][letterI];
+            if ((dialogueI - 1) >= 0) { image[dialogueI - 1].SetActive(false); }
+            image[dialogueI].SetActive(true);
             letterI++;
             yield return new WaitForSecondsRealtime(textSpeed);
         }

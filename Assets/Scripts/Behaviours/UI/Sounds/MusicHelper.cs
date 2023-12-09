@@ -8,10 +8,11 @@ public class MusicHelper : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log("hola");
-        if (levelMusic != MusicControler.Instance.musicPlaying || MusicControler.Instance.musicPlaying == null)
+        Debug.Log(MusicControler.Instance.musicPlaying);
+        if (levelMusic != MusicControler.Instance.musicPlaying)
         {
             MusicControler.Instance.PlayOnLoop(levelMusic);
+            MusicControler.Instance.musicPlaying = levelMusic;
         }
     }
 }

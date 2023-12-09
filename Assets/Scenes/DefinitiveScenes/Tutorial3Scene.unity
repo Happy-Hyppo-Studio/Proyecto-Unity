@@ -1823,11 +1823,11 @@ PrefabInstance:
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: image.Array.data[2]
       value: 
-      objectReference: {fileID: 236149405}
+      objectReference: {fileID: 7720641875085581791}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: image.Array.data[3]
       value: 
-      objectReference: {fileID: 236149405}
+      objectReference: {fileID: 443270875}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: image.Array.data[4]
       value: 
@@ -1883,6 +1883,14 @@ PrefabInstance:
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[9]
       value: Armate de estos conocimientos para derrotar a los enemigos.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765510285779537375, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -390
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765510285779537375, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 322
       objectReference: {fileID: 0}
     - target: {fileID: 3434872885660480587, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: m_margin.x
@@ -1972,6 +1980,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6254871653525983376, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7397334312844361982, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: m_Name
       value: Dialog
@@ -1991,6 +2003,11 @@ PrefabInstance:
       addedObject: {fileID: 236149406}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+--- !u!1 &7720641875085581791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6254871653525983376, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+  m_PrefabInstance: {fileID: 7720641875085581790}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8315874384076677124
 PrefabInstance:
   m_ObjectHideFlags: 0

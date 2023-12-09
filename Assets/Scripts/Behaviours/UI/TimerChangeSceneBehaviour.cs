@@ -17,7 +17,6 @@ public class TimerChangeSceneBehaviour : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             SceneManager.LoadScene(scene);
-            MusicControler.Instance.PauseSound();
         }
     }
 }

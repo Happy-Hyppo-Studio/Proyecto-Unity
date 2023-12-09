@@ -50,11 +50,11 @@ public class MusicControler : MonoBehaviour
         currentTime = 0;
     }
 
-    public void PauseSound()
+    /*public void PauseSound()
     {
         currentTime = audioSource.time;
         audioSource.Stop();
-    }
+    }*/
 
     public void ResumeSound()
     {

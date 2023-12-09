@@ -15,7 +15,8 @@ public class DefeatMenuBehaviour : MonoBehaviour
             MusicControler.Instance.StopSound();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);//Carga el siguiente nivel a este, habria que comprobar que no sea el último
         });
-        forfeitButton.onClick.AddListener(() => {
+        forfeitButton.onClick.AddListener(() =>
+        {
             Time.timeScale = 1.0f;
             MusicControler.Instance.StopSound();
             SceneManager.LoadScene(3);//Carga el selector de nivel

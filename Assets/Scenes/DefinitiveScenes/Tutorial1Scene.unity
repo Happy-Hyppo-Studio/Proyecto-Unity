@@ -484,6 +484,82 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7659c6d175d7414e9030f41538a496a, type: 3}
+--- !u!1 &630650565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 630650566}
+  - component: {fileID: 630650568}
+  - component: {fileID: 630650567}
+  m_Layer: 5
+  m_Name: GuideHand (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &630650566
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630650565}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9379058, w: -0.34689006}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2022667878}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 499.406}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -303.9, y: 278.9}
+  m_SizeDelta: {x: 1386, y: 1624}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &630650567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630650565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6107df6aa1645154bab1db72b6e7c575, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &630650568
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630650565}
+  m_CullTransparentMesh: 1
 --- !u!1 &645160400
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,6 +705,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33ef00071dd558341a52b7d3372c5922, type: 3}
+--- !u!1 &824229580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6254871653525983376, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+  m_PrefabInstance: {fileID: 7720641875085581790}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1010009848
 GameObject:
   m_ObjectHideFlags: 0
@@ -1270,6 +1351,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 118284013206290282}
     m_Modifications:
+    - target: {fileID: 3218400715566415626, guid: 0d13452cc58b26c47a0de127d9d16a3e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6939932061788561804, guid: 0d13452cc58b26c47a0de127d9d16a3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1945,11 +2030,11 @@ PrefabInstance:
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: image.Array.data[7]
       value: 
-      objectReference: {fileID: 447412936}
+      objectReference: {fileID: 824229580}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: image.Array.data[8]
       value: 
-      objectReference: {fileID: 447412936}
+      objectReference: {fileID: 630650565}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[0]
       value: Saludos viajero.
@@ -1986,12 +2071,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[8]
-      value: El Kappa es fuerte contra fuego y debil contra tierra, ten esto en cuenta
-        a la hora de colocarlos.
+      value: "El Kappa es fuerte contra fuego y d\xE9bil contra tierra, colocalos
+        en los caminos como consideres."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[9]
       value: Armate de estos conocimientos para derrotar a los enemigos.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765510285779537375, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -458.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765510285779537375, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 320.5
       objectReference: {fileID: 0}
     - target: {fileID: 3434872885660480587, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: m_fontSize
@@ -2089,6 +2182,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6254871653525983376, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7397334312844361982, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: m_Name
       value: Dialog
@@ -2100,6 +2197,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6105313519967201543, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 630650566}
     - targetCorrespondingSourceObject: {fileID: 6105313519967201543, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 447412937}
