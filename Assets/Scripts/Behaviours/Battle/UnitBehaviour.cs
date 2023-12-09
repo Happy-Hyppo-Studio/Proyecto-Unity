@@ -39,7 +39,9 @@ public class UnitBehaviour : MonoBehaviour
 
    
     [SerializeField] private Animator animatorControler;
+    [SerializeField] private bool weatherInmune;
     private bool fireWeakened;
+
 
     public void Start()
     {
@@ -50,9 +52,14 @@ public class UnitBehaviour : MonoBehaviour
 
         int scene = SceneManager.GetActiveScene().buildIndex;
 
-        if (scene >= 1)
+        if (scene >= 18)
         {
             fireWeakened = true;
+        }
+
+        if (fireWeakened && this.type == element.air && !weatherInmune)
+        {
+            StartCoroutine(DañoEntorno());
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)//si EMPIEZA a colisionar
@@ -121,15 +128,8 @@ public class UnitBehaviour : MonoBehaviour
     public IEnumerator DañoEntorno()
     {
         this.health -= 10;
-        yield return new WaitForSeconds(3.0f);
-    }
-
-    public void FixedUpdate()
-    {
-        if (fireWeakened && this.type == element.air)
-        {
-           StartCoroutine(DañoEntorno());
-        }
+        yield return new WaitForSeconds(2.0f);
+        StartCoroutine(DañoEntorno());
     }
 
     private void OnDestroy()

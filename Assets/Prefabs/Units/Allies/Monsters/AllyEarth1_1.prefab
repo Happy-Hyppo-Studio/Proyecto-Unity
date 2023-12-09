@@ -180,6 +180,7 @@ MonoBehaviour:
   maxHealth: 40
   isAlly: 1
   animatorControler: {fileID: 0}
+  weatherInmune: 0
 --- !u!114 &6927051497557177478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,7 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shootClock:
-    Frequency: 3
+    Frequency: 2.5
   bullet: {fileID: 8906481695269838944, guid: 38ed573db9cf9c2488f82b7bc25f19fe, type: 3}
 --- !u!114 &5131307333558616835
 MonoBehaviour:

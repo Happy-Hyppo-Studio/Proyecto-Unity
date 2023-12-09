@@ -67,7 +67,7 @@ PrefabInstance:
     - target: {fileID: 6917443277188815005, guid: b9386ab48fdea8045925e838c9581c23, type: 3}
       propertyPath: OutputAudioMixerGroup
       value: 
-      objectReference: {fileID: -7447427808505278129, guid: 1f4f9d99183e3534fb9c9607b47e5ed8, type: 2}
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4716046073134219179, guid: b9386ab48fdea8045925e838c9581c23, type: 3}
     m_RemovedGameObjects: []
@@ -94,4 +94,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef89da8b033ec394480d0ce6926421c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelMusic: {fileID: 0}
+  musicPlaying: {fileID: 0}

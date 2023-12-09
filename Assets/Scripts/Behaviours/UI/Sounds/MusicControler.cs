@@ -7,12 +7,15 @@ public class MusicControler : MonoBehaviour
     public static MusicControler Instance;
 
     private AudioSource audioSource;
+    public AudioClip musicPlaying;
     //[SerializeField] private AudioClip firstSong;
 
     private float currentTime;
 
     private void Awake()
     {
+        musicPlaying = null;
+
         if (Instance == null)
         {
             Instance = this;
@@ -24,9 +27,6 @@ public class MusicControler : MonoBehaviour
         }
 
         audioSource = GetComponent<AudioSource>();
-
-        //PlayOnLoad(firstSong);
-        //audioSource.Play(0);
     }
 
     public void PlayOnLoop(AudioClip levelMusic)
@@ -39,8 +39,9 @@ public class MusicControler : MonoBehaviour
     public void PlaySound(AudioClip sound)
     {
         audioSource.Stop();
-
         audioSource.PlayOneShot(sound);
+
+        musicPlaying = sound;
     }
 
     public void StopSound()

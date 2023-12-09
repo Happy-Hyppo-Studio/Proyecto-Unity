@@ -180,6 +180,7 @@ MonoBehaviour:
   maxHealth: 10
   isAlly: 1
   animatorControler: {fileID: 0}
+  weatherInmune: 1
 --- !u!114 &1957036506615352680
 MonoBehaviour:
   m_ObjectHideFlags: 0

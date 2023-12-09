@@ -63,7 +63,7 @@ EditorBuildSettings:
     path: Assets/Scenes/DefinitiveScenes/World1Level6.unity
     guid: 27dd1aa651a2f4b49a84d2747d80d32f
   - enabled: 1
-    path: Assets/Scenes/DefinitiveScenes/World2Level1.unity
+    path: Assets/Scenes/DefinitiveScenes/World2Level3.unity
     guid: 51f4b40dab3132c47b60639f5d2d0a30
   - enabled: 0
     path: Assets/Scenes/TestingScenes/Level1Scene.unity
