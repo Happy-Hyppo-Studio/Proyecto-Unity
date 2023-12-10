@@ -25,7 +25,7 @@ public class StartButtonBehaviour : MonoBehaviour
         });
         
         nameInput.onSelect.AddListener((str) => {
-            if (TouchScreenKeyboard.isSupported)
+            if (SystemInfo.deviceType==DeviceType.Handheld&&TouchScreenKeyboard.isSupported)
             {
                 keyboard = TouchScreenKeyboard.Open(nameInput.text, TouchScreenKeyboardType.Default);
             }
@@ -34,8 +34,10 @@ public class StartButtonBehaviour : MonoBehaviour
     }
     private void OnGUI()
     {
-        if (keyboard != null)
+        if (SystemInfo.deviceType == DeviceType.Handheld && keyboard != null)
+        {
             nameInput.text = keyboard.text;
+        }
     }
 
 
