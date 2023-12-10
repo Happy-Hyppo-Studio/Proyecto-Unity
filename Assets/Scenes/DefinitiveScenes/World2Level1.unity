@@ -1274,7 +1274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[6]
-      value: "Adem\xE1s los enemigos de fuego son mucho m\xE1s fuertes aqui."
+      value: "Adem\xE1s los enemigos de fuego son mucho m\xE1s fuertes aqu\xED."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[7]
@@ -1283,7 +1283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[8]
-      value: "Se que todo esto no supondr\xE1 un desafio para ti, pero debes saberlo
+      value: "Se que todo esto no supondr\xE1 un desaf\xEDo para ti, pero debes saberlo
         antes de seguir."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
