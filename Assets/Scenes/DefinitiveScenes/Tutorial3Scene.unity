@@ -1852,11 +1852,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[2]
-      value: "Carcinoss, a diferencia de los dem\xE1s, ataca desde lejos."
+      value: "Carcinos, a diferencia de los dem\xE1s, ataca desde lejos."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[3]
-      value: "Adem\xE1s no puede moverse as\xED que una vez lo coloques no podras
+      value: "Adem\xE1s no puede moverse as\xED que una vez lo coloques no podr\xE1s
         poner otras unidades ah\xED."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}

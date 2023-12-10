@@ -355,6 +355,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1622d4d7fd836c848a025d0263e957d0, type: 3}
+--- !u!1 &261529742 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3709221368155115068, guid: 33ef00071dd558341a52b7d3372c5922, type: 3}
+  m_PrefabInstance: {fileID: 813647676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &414498685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1262,6 +1267,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5048855490027980928, guid: 3c337ef2b2cbd644ea05468c9c549b0b, type: 3}
   m_PrefabInstance: {fileID: 1264455281}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1962283021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3709221368155115068, guid: 33ef00071dd558341a52b7d3372c5922, type: 3}
+  m_PrefabInstance: {fileID: 1420271875}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &2022667878 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6105313519967201543, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
@@ -1976,11 +1986,11 @@ PrefabInstance:
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[0]
       value: "Como puede que ya sepas solo nos queda una criatura m\xE1s por ver,
-        el Fenix."
+        el F\xE9nix."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[1]
-      value: "\xC9l fenix es muy similar al kappa en cuanto a fuerza y vida."
+      value: "El f\xE9nix es muy similar al kappa en cuanto a fuerza y vida."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[2]
@@ -1993,7 +2003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[4]
-      value: "All\xED hay un Kappa que necesita ayuda. \xA1Br\xEDndale algo de apoyo!"
+      value: "All\xED hay un Tanggs que necesita ayuda. \xA1Br\xEDndale algo de apoyo!"
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[5]
@@ -2203,11 +2213,11 @@ PrefabInstance:
     - target: {fileID: 2228911732718224412, guid: 3045a7ca0f50d294fb904a8fa94f3dd2, type: 3}
       propertyPath: obj.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1962283021}
     - target: {fileID: 2228911732718224412, guid: 3045a7ca0f50d294fb904a8fa94f3dd2, type: 3}
       propertyPath: obj.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 261529742}
     - target: {fileID: 2228911732718224412, guid: 3045a7ca0f50d294fb904a8fa94f3dd2, type: 3}
       propertyPath: obj.Array.data[2]
       value: 

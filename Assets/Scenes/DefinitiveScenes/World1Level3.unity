@@ -495,15 +495,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[1]
-      value: Veo que te estas desenvolviendo bastante bien.
+      value: "Veo que te est\xE1s desenvolviendo bastante bien."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[2]
-      value: He descubierto una cosa. Ves aquellas torres de alante?
+      value: "He descubierto una cosa. \xBFVes aquellas torres de delante?"
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[3]
-      value: "Parecen iguales que lad dem\xE1s, pero generan enemigos de manera discontinua."
+      value: "Parecen iguales que las dem\xE1s, pero generan enemigos de manera discontinua."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[4]

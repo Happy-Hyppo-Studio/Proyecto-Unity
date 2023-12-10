@@ -1121,7 +1121,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[1]
-      value: Siento molestar otra vez, pero estoy seguro de que me lo agradeceras.
+      value: "Siento molestar otra vez, pero estoy seguro de que me lo agradecer\xE1s."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[2]
@@ -1129,12 +1129,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[3]
-      value: Esa torre unicamente invoca enemigos de aether.
+      value: "Esa torre \xFAnicamente invoca enemigos de aether."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[4]
-      value: "Estos no son debiles ni fuertes ante ning\xFAn elemento, aunque son
-        menos resistentes de lo normal."
+      value: "Estos no son d\xE9biles ni fuertes ante ning\xFAn elemento, aunque
+        son menos resistentes de lo normal."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[5]

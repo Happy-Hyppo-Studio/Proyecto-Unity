@@ -2050,16 +2050,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[3]
-      value: "\xA1Est\xE1 decidido, me ayudaras con esta importante tarea!"
+      value: "\xA1Est\xE1 decidido, me ayudar\xE1s con esta importante tarea!"
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[4]
       value: "Si queremos salvar a eduardo primero deber\xE1s conocer los peligros
-        de este mundo y como combatirlos."
+        de este mundo y c\xF3mo combatirlos."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[5]
-      value: Existen cuatro elementos, ya te ire hablando de cada uno de ellos.
+      value: "Existen cuatro elementos, ya te ir\xE9 hablando de cada uno de ellos."
       objectReference: {fileID: 0}
     - target: {fileID: 2617611351490640735, guid: 10fdfbd9fab5d6043b3fbe79e6544a4d, type: 3}
       propertyPath: dialog.Array.data[6]
