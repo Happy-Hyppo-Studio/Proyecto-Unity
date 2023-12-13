@@ -322,6 +322,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9059751889378858892, guid: 6ca14b023e61a4f4a984f55bdb2e559c, type: 3}
   m_PrefabInstance: {fileID: 132944806}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &132944808 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3709221368155115068, guid: 6ca14b023e61a4f4a984f55bdb2e559c, type: 3}
+  m_PrefabInstance: {fileID: 132944806}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &167983032 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2550533704129143557, guid: d7659c6d175d7414e9030f41538a496a, type: 3}
@@ -2758,7 +2763,7 @@ PrefabInstance:
       objectReference: {fileID: 1752854542}
     - target: {fileID: 2228911732718224412, guid: 3045a7ca0f50d294fb904a8fa94f3dd2, type: 3}
       propertyPath: obj.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2228911732718224412, guid: 3045a7ca0f50d294fb904a8fa94f3dd2, type: 3}
       propertyPath: obj.Array.data[0]
@@ -2771,7 +2776,7 @@ PrefabInstance:
     - target: {fileID: 2228911732718224412, guid: 3045a7ca0f50d294fb904a8fa94f3dd2, type: 3}
       propertyPath: obj.Array.data[2]
       value: 
-      objectReference: {fileID: 2008818911}
+      objectReference: {fileID: 132944808}
     - target: {fileID: 8618179020555965257, guid: 3045a7ca0f50d294fb904a8fa94f3dd2, type: 3}
       propertyPath: m_Name
       value: WinCondition

@@ -998,6 +998,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c337ef2b2cbd644ea05468c9c549b0b, type: 3}
+--- !u!1 &1316216238 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3709221368155115068, guid: 6ca14b023e61a4f4a984f55bdb2e559c, type: 3}
+  m_PrefabInstance: {fileID: 132944806}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1322941674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2586,7 +2591,7 @@ PrefabInstance:
       objectReference: {fileID: 1752854542}
     - target: {fileID: 2228911732718224412, guid: 3045a7ca0f50d294fb904a8fa94f3dd2, type: 3}
       propertyPath: obj.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2228911732718224412, guid: 3045a7ca0f50d294fb904a8fa94f3dd2, type: 3}
       propertyPath: obj.Array.data[0]
@@ -2599,7 +2604,7 @@ PrefabInstance:
     - target: {fileID: 2228911732718224412, guid: 3045a7ca0f50d294fb904a8fa94f3dd2, type: 3}
       propertyPath: obj.Array.data[2]
       value: 
-      objectReference: {fileID: 2008818911}
+      objectReference: {fileID: 1316216238}
     - target: {fileID: 8618179020555965257, guid: 3045a7ca0f50d294fb904a8fa94f3dd2, type: 3}
       propertyPath: m_Name
       value: WinCondition
