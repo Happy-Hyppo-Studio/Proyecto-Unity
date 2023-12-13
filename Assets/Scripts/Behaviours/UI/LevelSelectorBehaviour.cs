@@ -11,6 +11,7 @@ public class LevelSelectorBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1.0f;
         right.onClick.AddListener(() => {
             if (world0 < worlds.Length - 1)
             {
