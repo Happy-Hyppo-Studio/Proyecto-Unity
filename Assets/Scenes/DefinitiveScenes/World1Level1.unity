@@ -1129,7 +1129,7 @@ PrefabInstance:
     - target: {fileID: 2766607116719777289, guid: 6ca14b023e61a4f4a984f55bdb2e559c, type: 3}
       propertyPath: formation.Array.data[3].enemy
       value: 
-      objectReference: {fileID: 3709221368155115068, guid: 9cd412f1a8c10074f961e9a46e07bb8c, type: 3}
+      objectReference: {fileID: 3709221368155115068, guid: eff45708a9c84224eb5236bdddb999f7, type: 3}
     - target: {fileID: 2766607116719777289, guid: 6ca14b023e61a4f4a984f55bdb2e559c, type: 3}
       propertyPath: formation.Array.data[0].secondsSincePrevious
       value: 8
