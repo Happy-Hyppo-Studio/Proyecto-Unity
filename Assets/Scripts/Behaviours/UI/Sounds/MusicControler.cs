@@ -8,6 +8,8 @@ public class MusicControler : MonoBehaviour
 
     private AudioSource audioSource;
     public AudioClip musicPlaying;
+
+    public bool polloPollo;
     //[SerializeField] private AudioClip firstSong;
 
     private float currentTime;

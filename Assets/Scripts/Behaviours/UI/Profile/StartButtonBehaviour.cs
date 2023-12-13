@@ -12,6 +12,7 @@ public class StartButtonBehaviour : MonoBehaviour
     public GameObject ageInput, characterInput;
     public TMP_InputField nameInput;
     private TouchScreenKeyboard keyboard;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,11 @@ public class StartButtonBehaviour : MonoBehaviour
             //StreamWriter sw = new StreamWriter(path);
             //sw.WriteLine(name + " " + characterInput.GetComponent<CharacterSelectBehaviour>().character + " " + ageInput.GetComponent<AgeUIBehaviour>().ageInt);
             //sw.Close();
+            if (nameInput.text == "Pollo")
+            {
+                MusicControler.Instance.polloPollo = true;
+            }
+
             SceneManager.LoadScene(2);
         });
         

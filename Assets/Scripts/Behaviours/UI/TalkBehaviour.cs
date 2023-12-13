@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class TalkBehaviour : MonoBehaviour
@@ -10,16 +11,31 @@ public class TalkBehaviour : MonoBehaviour
     public GameObject[] image;
     public GameObject img;
     public TMP_Text text;
+    public GameObject[] colonel;
     Coroutine dialogue;
     public float textSpeed = 0.3f;
     private int dialogueI;
     private int dialogueLength;
+    private bool polloPollo;
     // Start is called before the first frame update
     void Start()
     {
         Time.timeScale = 0.0f;
         dialogue = StartCoroutine(StartDialogue());
         dialogueLength = dialog.Length - 1;
+
+        if (MusicControler.Instance.polloPollo)
+        {
+            colonel[0].SetActive(false);
+            colonel[1].SetActive(true);
+
+            var scene = SceneManager.GetActiveScene().buildIndex;
+            if (scene == 6)
+            {
+                dialog[1] = "Estos bichos tan molestos han secuestrado a mi amigo, el gran mago. ¿Me hecharías una mano?";
+                dialog[4] = "Si queremos salvar al mago primero deberás conocer los peligros de este mundo y cómo combatirlos.";
+            }
+        }
     }
     // Update is called once per frame
     void Update()
