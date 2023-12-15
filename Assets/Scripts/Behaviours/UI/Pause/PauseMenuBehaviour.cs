@@ -8,6 +8,7 @@ public class PauseMenuBehaviour : MonoBehaviour
 {
     public Button continueButton, optionsButton, forfeitButton;
     public GameObject optionsMenu, pauseButton;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -25,4 +26,5 @@ public class PauseMenuBehaviour : MonoBehaviour
         });
 
     }
+
 }

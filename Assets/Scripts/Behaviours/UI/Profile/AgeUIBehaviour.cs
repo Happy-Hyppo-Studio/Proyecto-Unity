@@ -16,11 +16,13 @@ public class AgeUIBehaviour : MonoBehaviour
         {
             if (ageInt <= 18) ageInt++;
             ageText.text = (ageInt == 19) ? "+18" : ageInt.ToString();
+            globalDataManager.Instance.setEdad(ageInt);
         });
         ageDown.onClick.AddListener(() =>
         {
             if (ageInt >0) ageInt--;
             ageText.text =ageInt.ToString();
+            globalDataManager.Instance.setEdad(ageInt);
         });
 
 

@@ -9,6 +9,7 @@ using UnityEngine.UI;
 
 public class StartButtonBehaviour : MonoBehaviour
 {
+    [SerializeField] private CharacterSelectBehaviour CSB;
     public GameObject ageInput, characterInput;
     public TMP_InputField nameInput;
     private TouchScreenKeyboard keyboard;
@@ -26,6 +27,16 @@ public class StartButtonBehaviour : MonoBehaviour
             {
                 MusicControler.Instance.polloPollo = true;
             }
+
+            if (CSB.character == "Chico")
+            {
+                globalDataManager.Instance.setGenero(0);
+            }
+            else
+            {
+                globalDataManager.Instance.setGenero(1);
+            }
+            globalDataManager.Instance.setNombre(nameInput.text);
 
             SceneManager.LoadScene(2);
         });

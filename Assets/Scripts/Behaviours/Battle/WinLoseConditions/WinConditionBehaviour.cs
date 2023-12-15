@@ -4,8 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class WinConditionBehaviour : MonoBehaviour
 {
+    public static event Action callVictory;
+
     public GameObject[] obj;
     public GameObject winUI;
     public int deathcount = 0;
@@ -29,6 +32,7 @@ public class WinConditionBehaviour : MonoBehaviour
                 Time.timeScale = 0.0f;
                 GameObject pause = GameObject.FindWithTag("BigPause");
                 if (pause != null) pause.SetActive(false);
+                callVictory?.Invoke();
                 winUI.SetActive(true);
             }
         });
